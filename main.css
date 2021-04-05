@@ -1,0 +1,58 @@
+.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  line-height: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('');
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+}
+.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  width: auto;
+  border-radius: 4px;
+  padding: 2px 5px;
+  background-image: none!important;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-size: 12px;
+  top: -1px;
+  font-weight: normal;
+  animation-timing-function: linear;
+  transition: 
+    color .2s ease,
+    background-color .2s ease;
+}
+
+/* Smiley The Stickman */
+
+.avatar-1BDn8e[src*="540982793111470080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  background-image: url('https://i.imgur.com/veSnRnV.png');
+  }
+  
+.avatar-1BDn8e[src*="540982793111470080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "LGBTQ Commander";
+  animation: fadeIn .5s, rgb 2s linear infinite;
+  color: #ffffff;
+  width: 150px;
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+  background-image: url('https://i.imgur.com/veSnRnV.png') !important;
+  background-attachment: fixed;
+}
+
+
+@keyframes rgb {
+  from{filter: hue-rotate(0deg)}
+  to{filter: hue-rotate(360deg);}
+}
+
+@keyframes fadeIn {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
