@@ -101,6 +101,28 @@
   animation: rgb 2s linear infinite;
 }
 
+/* itsgrimboi */
+
+.avatar-1BDn8e[src*="225739607847731200"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  background-image: url('https://i.imgur.com/8EsecpG.png');
+  transform: scale(1.6);
+  }
+  
+.avatar-1BDn8e[src*="225739607847731200"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "He's Sus! 😮";
+  animation: fadeIn .5s;
+  color: #ffffff;
+  width: 150px;
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 2px 2px .5px black;
+  background-color: red;
+  background-attachment: fixed;
+  border-color: white;
+  transform: scale(1);
+}
+
 
 @keyframes rgb {
   from{filter: hue-rotate(0deg)}
