@@ -34,7 +34,7 @@
 
 [user_by_bdfdb="301512451453616128"]:not(img),
 [data-user-id="301512451453616128"]:not(img) {
-	--user-background: url('https://i.imgur.com/wLlEoOv.gif') !important;
+	--user-background: url('https://i.imgur.com/0WDzH4Z.gif') !important;
 }
 
 .header-QKLPzZ .wrapper-3t9DeA.avatar-3EQepX::before {
@@ -69,10 +69,11 @@
 
 .headerNormal-T_seeN,
 userInfoSection-2acyCx,
-.note-QfFU8y textarea,
 .topSectionNormal-2-vo2m,
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n,
 activity-1ythUs,
-body-3ND3kc {
+.body-3ND3kc {
 	background-color: rgb(0, 0, 0);
 }
 
