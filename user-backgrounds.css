@@ -65,7 +65,7 @@
 
 .body-3ND3kc,
 .theme-dark .body-3iLsc4 {
-	background-image: linear-gradient(black, rgb(0, 0, 0)) !important;
+	background-image: linear-gradient(black, rgba(0, 0, 0, 0.9)) !important;
 }
 
 .headerNormal-T_seeN {
@@ -130,7 +130,8 @@
 
 [user_by_bdfdb="301512451453616128"],
 [data-user-id="301512451453616128"] {
-  --user-background: url('https://miro.medium.com/max/3840/1*QjOkG7i-wkqI2-lnJf7B_g.gif') !important;
-  --user-popout: url('https://i.imgur.com/Zfor7gJ.gif')
+  --user-background: url('https://i.imgur.com/2g7vt9R.gif') !important;
+  --user-popout: url('https://i.redd.it/wydioi1m07131.jpg')
 }
+
 
