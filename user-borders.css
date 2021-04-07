@@ -1,6 +1,5 @@
-/* User Profile Border/Glows */
+/* ------------User Profile Border/Glows------------ */
 
-/* Mine */
 .contents-2mQqc9 .avatar-1BDn8e[src*="301512451453616128"] + h2::before{
   content: '';
   position: absolute;
@@ -16,13 +15,19 @@
   z-index: -1;
 }
 
+#app-mount .avatar-1BDn8e + h2 {
+  overflow: visible;
+}
+
+/* Mine */
+
 .contents-2mQqc9 .avatar-1BDn8e[src*="301512451453616128"] + h2::before {
   height: 66px;
   width: 66px;
   left: -69px;
   top: -10px;
   z-index: 1;
-  background-image: url(https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a9/Level_450_Summoner_Icon_Border.png/revision/latest?cb=20180406054738);
+  background-image: url('https://i.imgur.com/zQCMl2d.png');
 }
 
 .contents-2mQqc9 .avatar-1BDn8e[src*="301512451453616128"] {
@@ -36,9 +41,6 @@
   box-shadow: brightness(80%);
 }
 
-#app-mount .avatar-1BDn8e + h2 {
-  overflow: visible;
-}
 @keyframes oooh {
   to {
     filter: drop-shadow(0 0 8px rgb(255, 255, 255));
