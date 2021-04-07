@@ -1,4 +1,4 @@
-/* User Popout */
+/* ------------User Popout------------ */
 
 .userPopout-3XzG_A .wrapper-3t9DeA::after {
 	content: '';
@@ -12,8 +12,8 @@
 	opacity: .5 !important;
 	background-size: cover!important;
 	background-repeat: no-repeat!important;
-	background-position: var(--user-popout-position) center!important;
-	background-image: var(--user-popout)!important;
+	background-position: var(--user-popout-position) center/cover !important;
+	background-image: var(--user-popout) !important;
 	-webkit-mask-image: linear-gradient(#000, transparent)!important;
 }
 
@@ -39,14 +39,16 @@
 	z-index: unset;
 }
 
-/* User Profile Background */
+
+/* ------------User Profile Background------------ */
+
 
 #app-mount .header-QKLPzZ .wrapper-3t9DeA.avatar-3EQepX::before {
 	content: '';
 	position: absolute;
 	top: -34px;
 	left: -20px;
-	width: 601px;
+	width: 602px;
 	height: 300px;
 	pointer-events: none;
 	background: var(--user-background) center/cover no-repeat !important;
@@ -81,7 +83,6 @@
 	height: 100%;
 	opacity: .5;
 	pointer-events: none;
-	background: var(--user-background) center/cover no-repeat !important;
 	-webkit-mask: linear-gradient(black, transparent 80%) !important;
 }
 
@@ -104,6 +105,10 @@
 .headerFill-adLl4x,
 .textarea-2r0oV8:focus {
 	background-color: transparent !important;
+}
+
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+    border-top-color: #00000000;
 }
 
 .theme-dark .activityProfile-2bJRaP .content-3JfFJh,
@@ -130,8 +135,14 @@
 
 [user_by_bdfdb="301512451453616128"],
 [data-user-id="301512451453616128"] {
-  --user-background: url('https://i.imgur.com/2g7vt9R.gif') !important;
-  --user-popout: url('https://i.redd.it/wydioi1m07131.jpg')
+  --user-background: url('https://cdn.hipwallpaper.com/i/13/45/t9q1Gg.png') !important;
+  --user-popout: url('https://i.redd.it/wydioi1m07131.jpg') !important;
 }
 
+/* Smiley The Stickman */
+[user_by_bdfdb="537796154092552194"],
+[data-user-id="537796154092552194"] {
+  --user-background: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
+  --user-popout: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
+}
 
