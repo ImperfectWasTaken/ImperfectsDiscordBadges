@@ -1,0 +1,110 @@
+.userPopout-3XzG_A {
+	transform: translateZ(0);
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none !important;
+	opacity: .5 !important;
+	background-size: cover!important;
+	background-repeat: no-repeat!important;
+	background-position: var(--user-popout-position) center!important;
+	background-image: var(--user-background)!important;
+	-webkit-mask-image: linear-gradient(#000, transparent)!important;
+}
+
+.userPopout-3XzG_A .header-2BwW8b,
+.userPopout-3XzG_A .scroller-2FKFPG,
+.userPopout-3XzG_A .footer-1fjuF6 {
+	z-index: 1;
+}
+
+.userPopout-3XzG_A {
+	--user-popout-position: center;
+}
+
+
+/* Mine */
+
+[user_by_bdfdb="301512451453616128"]:not(img),
+[data-user-id="301512451453616128"]:not(img) {
+	--user-background: url('https://i.imgur.com/wLlEoOv.gif') !important;
+}
+
+.header-QKLPzZ .wrapper-3t9DeA.avatar-3EQepX::before {
+	content: '';
+	position: absolute;
+	top: -34px;
+	/*Distance from the avatar container to the edge of the modal (y)*/
+	left: -20px;
+	/*Distance from the avatar container to the edge of the modal (x)*/
+	width: 601px;
+	/*Width of modal header*/
+	height: 300px;
+	/*Height of modal header*/
+	pointer-events: none;
+	background: var(--user-background) center/cover no-repeat !important;
+	-webkit-mask: linear-gradient(black, transparent);
+	display: block !important;
+}
+
+.header-QKLPzZ *:not(:first-child),
+.tabBarItem-1b8RUP {
+	z-index: 1;
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA * {
+	z-index: 1;
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	z-index: unset;
+}
+
+.headerNormal-T_seeN,
+userInfoSection-2acyCx,
+.note-QfFU8y textarea,
+.topSectionNormal-2-vo2m,
+activity-1ythUs,
+body-3ND3kc {
+	background-color: rgb(0, 0, 0);
+}
+
+.body-3ND3kc,
+.theme-dark .body-3iLsc4 {
+	background-image: linear-gradient(black, rgb(0, 0, 0));
+}
+
+.headerNormal-T_seeN {
+	background-color: black !important;
+}
+
+.root-SR8cQa {
+	transform: translateZ(0);
+}
+
+.header-QKLPzZ .wrapper-3t9DeA::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	pointer-events: none;
+	background: var(--user-background) center/cover no-repeat !important;
+	-webkit-mask: linear-gradient(black, transparent 80%);
+}
+
+.headerInfo-30uryT,
+.tabBarItem-1b8RUP,
+.activity-1ythUs {
+	z-index: 1;
+	position: relative;
+}
