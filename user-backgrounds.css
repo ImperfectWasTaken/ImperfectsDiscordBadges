@@ -168,6 +168,14 @@
   --user-popout: url('https://i.imgur.com/IzUqxMr.gif') !important;
 }
 
+/* Meme-Man */
+
+[user_by_bdfdb="540982793111470080"],
+[data-user-id="540982793111470080"] {
+	--user-background: url('https://cdn.discordapp.com/attachments/796809866273357824/829817857285160980/unknown.png') !important;
+  --user-popout: url('https://cdn.discordapp.com/attachments/796809866273357824/829817857285160980/unknown.png') !important;
+}
+
 
 
 
