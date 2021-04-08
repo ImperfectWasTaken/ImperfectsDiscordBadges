@@ -1,3 +1,4 @@
+
 /* ------------User Popout------------ */
 
 .userPopout-3XzG_A .wrapper-3t9DeA::after {
@@ -10,7 +11,7 @@
 	z-index: -1;
 	pointer-events: none !important;
 	opacity: .5 !important;
-	background-size: cover!important;
+	background-size: auto !important;
 	background-repeat: no-repeat!important;
 	background-position: var(--user-popout-position) center/cover !important;
 	background-image: var(--user-popout) !important;
@@ -135,14 +136,13 @@
 
 [user_by_bdfdb="301512451453616128"],
 [data-user-id="301512451453616128"] {
-  --user-background: url('https://cdn.hipwallpaper.com/i/13/45/t9q1Gg.png') !important;
+	--user-background: url('https://i.imgur.com/eSYZqCT.gif') !important;
   --user-popout: url('https://i.redd.it/wydioi1m07131.jpg') !important;
 }
 
 /* Smiley The Stickman */
 [user_by_bdfdb="537796154092552194"],
 [data-user-id="537796154092552194"] {
-  --user-background: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
+	--user-background: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
   --user-popout: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
 }
-
