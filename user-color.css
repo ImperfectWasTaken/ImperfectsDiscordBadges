@@ -1,0 +1,17 @@
+/* Colored Text For Specific Users */
+
+/* Mine */
+
+.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy {
+    color: rgb(255, 255, 255) !important;
+    transition: filter .1s ease-in-out;
+    text-shadow: 2px 1px 5px #881fff,
+    -1px -1px 5px #00c8ff;
+    
+}
+
+.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy:hover {
+    filter: drop-shadow(0 0 1px #d5aafd);
+    z-index: 1;
+}
+
