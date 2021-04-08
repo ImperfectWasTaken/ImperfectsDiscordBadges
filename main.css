@@ -1,4 +1,9 @@
+@import url('https://imperfectwastaken.github.io/ImperfectsDiscordBadges/user-backgrounds.css');
+@import url('https://imperfectwastaken.github.io/ImperfectsDiscordBadges/user-borders.css');
+@import url('https://imperfectwastaken.github.io/ImperfectsDiscordBadges/user-color.css');
 
+/* Me crying when making this 😭 */
+/* ------------ Structures the users profile picture ------------ */
 
 .avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   display: inline-block;
@@ -47,12 +52,14 @@
   box-shadow: none !important;
 }
 
-/* Imperfect */
+/* ------------ User Badges ------------ */
+
+/* Mine */
 
 .avatar-1BDn8e[src*="301512451453616128"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "";
-  background-image: url('https://i.imgur.com/BWMZHxy.png');
-  transform: scale(1.6);
+  background-image: url('https://cdn.discordapp.com/attachments/826650420080279592/829717247182110760/779441124363862017.gif');
+  transform: scale(1.4);
   left: 1px;
   }
   
@@ -125,6 +132,7 @@
   transform: scale(1);
 }
 
+/* ------------ Keyframes ------------ */
 
 @keyframes rgb {
   from{filter: hue-rotate(0deg)}
