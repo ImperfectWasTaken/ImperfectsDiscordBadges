@@ -112,8 +112,9 @@
 }
 
 #app-mount .root-SR8cQa .topSectionPlaying-1J5E4n,
-#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV {
-  background: transparent
+#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
+.activity-11LB_k, .headerFill-adLl4x {
+  background: transparent !important;
 }
 
 #app-mount .messagesPopoutWrap-1MQ1bW .avatar-1BDn8e+h2::after {
