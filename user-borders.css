@@ -43,15 +43,10 @@
   transform: scale(1.3);
 }
 
-.contents-2mQqc9 .avatar-1BDn8e[src*="301512451453616128"]:hover {
-  animation-play-state: paused;
-  box-shadow: brightness(80%);
-}
+/* ------------Keyframes------------ */
 
 @keyframes oooh {
   to {
     filter: drop-shadow(0 0 8px rgb(255, 255, 255));
   }
 }
-
-
