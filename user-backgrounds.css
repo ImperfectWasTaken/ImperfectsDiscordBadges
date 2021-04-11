@@ -14,7 +14,7 @@
 	background-repeat: no-repeat!important;
 	background-position: var(--user-popout-position) center/cover !important;
 	background-image: var(--user-popout) !important;
-	-webkit-mask-image: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
+	-webkit-mask-image: linear-gradient(transparent, black 90%) top left fixed;
 }
 
 .userPopout-3XzG_A .header-2BwW8b,
