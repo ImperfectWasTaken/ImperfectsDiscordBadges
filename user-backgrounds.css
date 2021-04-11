@@ -10,7 +10,7 @@
 	z-index: -1;
 	pointer-events: none !important;
 	opacity: .5 !important;
-	background-size: auto !important;
+	background-size: cover !important;
 	background-repeat: no-repeat!important;
 	background-position: var(--user-popout-position) center/cover !important;
 	background-image: var(--user-popout) !important;
