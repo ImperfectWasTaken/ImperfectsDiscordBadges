@@ -36,14 +36,13 @@
 }
 
 #app-mount .headerNormal-T_seeN, 
-#app-mount .body-3iLsc4, 
 #app-mount .footer-1fjuF6, 
 #app-mount .headerPlaying-j0WQBV, 
 #app-mount .headerXbox-3G-4PF, 
 #app-mount .headerSpotify-zpWxgT, 
 #app-mount .headerStreaming-2FjmGz, 
 #app-mount .bodyInner-245q0L {
-  background: rgba(0, 0, 0, 0.0) !important;
+  background: rgba(0, 0, 0, 0.0) !important; 
 }
 
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
@@ -191,4 +190,13 @@
 	--user-background: url('https://cdn.discordapp.com/attachments/767441206682058782/830117226098720818/unknown.png') !important;
   --user-popout: url('https://cdn.discordapp.com/attachments/678603771445510182/830119521753759744/unknown.png') !important;
 }
+
+/* HeadHunterJoe */
+
+[user_by_bdfdb="454085950952308738"],
+[data-user-id="454085950952308738"] {
+	--user-background: url('https://i.natgeofe.com/n/73c00c4f-a746-4d0b-a006-ea5c5097d265/01-rat-friends-nationalgeographic_1162144.jpg?w=636&h=424') !important;
+  --user-popout: url('https://cdn.mos.cms.futurecdn.net/7GCPeSkqz3duhcXkg7E6H7-1200-80.jpg') !important;
+}
+
 
