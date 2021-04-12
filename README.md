@@ -17,3 +17,11 @@
 - You Need To Have BetterDiscord Client
   * Additionally you will need to have [BDFBD](https://mwittrien.github.io/downloader/?library), a library/plugin required for this to run properly
 - Your BG, Badge, Or User Color
+
+
+### WARNINGS
+- Some themes are not compatible with this mini theme, I'm going to be working on some fixes on those, but for now here are the few themes that will simply not work currently:
+  - Slate
+  - Nocturnal
+  - Aurora 
+* Again, still working to fix those, please let me know if there are any other themes effected 🎇
