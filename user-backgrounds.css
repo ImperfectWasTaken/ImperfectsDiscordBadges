@@ -24,7 +24,7 @@
 .bodyInnerWrapper-Z8WDxe,
 .headerText-2sdzFM,
 .date-YN6TCS+.customStatus-1bh2V9 {
-	z-index: 1;
+	z-index: 1 !important;
 }
 
 .userPopout-3XzG_A {
@@ -43,19 +43,14 @@
 #app-mount .headerSpotify-zpWxgT, 
 #app-mount .headerStreaming-2FjmGz, 
 #app-mount .bodyInner-245q0L {
-  background: rgba(0, 0, 0, 0.0);
+  background: rgba(0, 0, 0, 0.0) !important;
 }
-
-.userPopout-3XzG_A .footer-1fjuF6 {
-  z-index: 1;
-}
-
 
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
-#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n {
-  background: none;
+#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n,
+.userPopout-3XzG_A::before {
+  background: none !important;
 }
-
 
 
 /* ------------User Profile Background------------ */
@@ -73,6 +68,8 @@
 	display: block !important;
 }
 
+#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
+#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n,
 .headerNormal-T_seeN,
 .topSectionNormal-2-vo2m,
 .headerPlaying-j0WQBV,
@@ -80,6 +77,7 @@
 .body-3ND3kc {
 	background-color: rgb(0, 0, 0) !important;
 }
+
 
 .body-3ND3kc,
 .theme-dark .body-3iLsc4 {
@@ -111,8 +109,6 @@
 	position: relative;
 }
 
-#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n,
-#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
 .activity-11LB_k, .headerFill-adLl4x {
   background: transparent !important;
 }
