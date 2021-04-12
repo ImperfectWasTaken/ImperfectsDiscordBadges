@@ -18,21 +18,7 @@
   top: 2px;
   margin-left: 5px;
 }
-.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  width: auto;
-  border-radius: 4px;
-  padding: 2px 5px;
-  background-image: none!important;
-  background-color: #0d0d0d;
-  color: #fff;
-  font-size: 12px;
-  top: -1px;
-  font-weight: normal;
-  animation-timing-function: linear;
-  transition: 
-    color .2s ease,
-    background-color .2s ease;
-}
+
 
 .avatar-1BDn8e[src*="301512451453616128"]:hover + h2::after{
   color: white;
@@ -67,12 +53,20 @@
   content: "Obeys Stop Signs";
   animation: fadeIn .5s;
   color: white;
+  border-color: white;
   width: 150px;
+  top: -1px;
   font-size: 14px;
   text-align: center;
-  background-color: #a989ff;
-  background-attachment: fixed;
+  text-shadow: 2px 2px 1px black;
+  border-radius: 4px;
+  padding: 2px 5px;
+  background-size: cover;
+  background-image: url(https://i.imgur.com/wLlEoOv.gif);
   transform: scale(1);
+  transition: 
+    color .2s ease,
+    background-color .2s ease;
 }
 
 .contents-2mQqc9 .avatar-1BDn8e[src*="301512451453616128"] {
@@ -99,7 +93,10 @@
   width: 150px;
   font-size: 14px;
   text-align: center;
+  border-radius: 4px;
+  padding: 2px 5px;
   text-shadow: 2px 2px 1px black;
+  background-size: cover;
   background-image: url('https://i.imgur.com/veSnRnV.png') !important;
   background-attachment: fixed;
   transform: scale(1);
@@ -121,15 +118,20 @@
 .avatar-1BDn8e[src*="225739607847731200"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "He's Sus! 😮";
   animation: fadeIn .5s;
-  color: #ffffff;
+  color: white;
+  border-color: white;
   width: 150px;
+  top: -1px;
   font-size: 14px;
   text-align: center;
-  text-shadow: 2px 2px .5px black;
-  background-color: red;
-  background-attachment: fixed;
-  border-color: white;
+  border-radius: 4px;
+  padding: 2px 5px;
+  background-size: cover;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(253,45,45,1) 100%);
   transform: scale(1);
+  transition: 
+    color .2s ease,
+    background-color .2s ease;
 }
 
 /* ------------ Keyframes ------------ */
