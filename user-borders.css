@@ -25,7 +25,7 @@
   width: 66px;
   left: -69px;
   top: -10px;
-  z-index: -1;
+  z-index: 1;
   background-image: url('https://i.imgur.com/zQCMl2d.png');
 }
 
@@ -36,12 +36,30 @@
   transition: filter 200ms ease-in-out;
 }
 
-.avatar-1BDn8e[src*="301512451453616128"] + h2::after {
-  background-image: url(https://i.imgur.com/lfcy3Kd.png);
-  bottom: -22px;
-  left: -26px;
-  transform: scale(1.3);
+/* Element 118 - Josh */
+.contents-2mQqc9 .avatar-1BDn8e[src*="484174581909684224"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -59px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: -1;
 }
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="484174581909684224"] + h2::before {
+  height: 61px;
+  width: 59px;
+  left: -65px;
+  top: -8px;
+  z-index: 1;
+  background-image: url('https://cdn.discordapp.com/attachments/778705407987417089/831316210905382952/Ke0GfuX.png');
+}
+
 
 /* ------------Keyframes------------ */
 
