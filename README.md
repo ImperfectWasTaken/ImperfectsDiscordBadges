@@ -14,7 +14,7 @@
 ![alt text](https://cdn.discordapp.com/attachments/619917123489103936/830938132098187274/unknown.png)
 
 ### REQUIREMENTS
-- You Need To Have BetterDiscord Client
+- You Need To Have [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp) Client
   * Additionally you will need to have [BDFBD](https://mwittrien.github.io/downloader/?library), a library/plugin required for this to run properly
 - Your BG, Badge, Or User Color
 
