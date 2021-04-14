@@ -1,5 +1,5 @@
 # ImperfectsDiscordBadges
-## A neat way to express yourself on discord!
+## A neat way to express yourself on discord! Inspired by USRBG
 
 ![alt text](https://cdn.discordapp.com/attachments/619917123489103936/830940964678926366/unknown.png)
 ![alt text](https://cdn.discordapp.com/attachments/619917123489103936/830941019032780810/unknown.png)
