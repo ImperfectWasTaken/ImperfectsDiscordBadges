@@ -35,14 +35,15 @@
 	--user-popout-position: center;
 }
 
-#app-mount .headerNormal-T_seeN, 
-#app-mount .footer-1fjuF6, 
-#app-mount .headerPlaying-j0WQBV, 
-#app-mount .headerXbox-3G-4PF, 
-#app-mount .headerSpotify-zpWxgT, 
-#app-mount .headerStreaming-2FjmGz, 
+#app-mount .headerNormal-T_seeN,
+#app-mount .body-3iLsc4,
+#app-mount .footer-1fjuF6,
+#app-mount .headerPlaying-j0WQBV,
+#app-mount .headerXbox-3G-4PF,
+#app-mount .headerSpotify-zpWxgT,
+#app-mount .headerStreaming-2FjmGz,
 #app-mount .bodyInner-245q0L {
-  background: rgba(0, 0, 0, 0.0) !important; 
+	background: transparent !important;
 }
 
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
