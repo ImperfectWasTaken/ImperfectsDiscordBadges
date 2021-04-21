@@ -131,6 +131,9 @@
     padding-left: 20px;
 }
 
+.input-cIJ7To {
+  box-shadow: transparent;
+}
 
 .theme-dark .activityProfile-2bJRaP .content-3JfFJh,
 .theme-dark .activityProfile-2bJRaP .details-38sfDr,
@@ -148,7 +151,7 @@
 .text-AOoUen,
 .nameWrap-3Z4G_9,
 .activityName-1IaRLn {
-	color: white;
+	color: white !important;
 }
 
 
