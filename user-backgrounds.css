@@ -12,8 +12,8 @@
 	opacity: .5 !important;
 	background-size: cover !important;
 	background-repeat: no-repeat!important;
-	background-position: var(--user-popout-position) center/cover !important;
-	background-image: var(--user-popout) !important;
+	background-position: var(--users-popout-position) center/cover !important;
+	background-image: var(--users-popout) !important;
 	-webkit-mask-image: linear-gradient(transparent, black 90%) top left fixed;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .userPopout-3XzG_A {
-	--user-popout-position: center;
+	--users-popout-position: center;
 }
 
 #app-mount .headerNormal-T_seeN,
@@ -63,7 +63,7 @@
 	width: 602px;
 	height: 300px;
 	pointer-events: none;
-	background: var(--user-background) center/cover no-repeat !important;
+	background: var(--users-background) center/cover no-repeat !important;
 	-webkit-mask: linear-gradient(black, transparent) !important;
 	display: block !important;
 }
@@ -159,54 +159,54 @@
 
 [user_by_bdfdb="301512451453616128"],
 [data-user-id="301512451453616128"] {
-	--user-background: url('https://i.imgur.com/eSYZqCT.gif') !important;
-  --user-popout: url('https://i.redd.it/wydioi1m07131.jpg') !important;
+	--users-background: url('https://i.imgur.com/eSYZqCT.gif') !important;
+  --users-popout: url('https://i.pinimg.com/originals/2b/8d/b9/2b8db9978438efaed9baee7bf58a872d.png') !important;
 }
 
 /* Smiley The Stickman */
 
 [user_by_bdfdb="537796154092552194"],
 [data-user-id="537796154092552194"] {
-	--user-background: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
-  --user-popout: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
+	--users-background: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
+  --users-popout: url('https://cdn.discordapp.com/attachments/556196613371199517/829468249014927460/preview.png') !important;
 }
 
 /* itsgrimboi */
 
 [user_by_bdfdb="225739607847731200"],
 [data-user-id="225739607847731200"] {
-	--user-background: url('https://i.imgur.com/IzUqxMr.gif') !important;
-  --user-popout: url('https://i.imgur.com/IzUqxMr.gif') !important;
+	--users-background: url('https://i.imgur.com/IzUqxMr.gif') !important;
+  --users-popout: url('https://i.imgur.com/IzUqxMr.gif') !important;
 }
 
 /* Meme-Man */
 
 [user_by_bdfdb="540982793111470080"],
 [data-user-id="540982793111470080"] {
-	--user-background: url('https://cdn.discordapp.com/attachments/796809866273357824/829817857285160980/unknown.png') !important;
-  --user-popout: url('https://cdn.discordapp.com/attachments/796809866273357824/829817857285160980/unknown.png') !important;
+	--users-background: url('https://cdn.discordapp.com/attachments/796809866273357824/829817857285160980/unknown.png') !important;
+  --users-popout: url('https://cdn.discordapp.com/attachments/796809866273357824/829817857285160980/unknown.png') !important;
 }
 
 /* Element 118 */
 
 [user_by_bdfdb="484174581909684224"],
 [data-user-id="484174581909684224"] {
-	--user-background: url('https://cdn.discordapp.com/attachments/767441206682058782/830117226098720818/unknown.png') !important;
-  --user-popout: url('https://cdn.discordapp.com/attachments/678603771445510182/830119521753759744/unknown.png') !important;
+	--users-background: url('https://cdn.discordapp.com/attachments/767441206682058782/830117226098720818/unknown.png') !important;
+  --users-popout: url('https://cdn.discordapp.com/attachments/678603771445510182/830119521753759744/unknown.png') !important;
 }
 
 /* HeadHunterJoe */
 
 [user_by_bdfdb="454085950952308738"],
 [data-user-id="454085950952308738"] {
-	--user-background: url('https://i.natgeofe.com/n/73c00c4f-a746-4d0b-a006-ea5c5097d265/01-rat-friends-nationalgeographic_1162144.jpg?w=636&h=424') !important;
-  --user-popout: url('https://cdn.mos.cms.futurecdn.net/7GCPeSkqz3duhcXkg7E6H7-1200-80.jpg') !important;
+	--users-background: url('https://i.natgeofe.com/n/73c00c4f-a746-4d0b-a006-ea5c5097d265/01-rat-friends-nationalgeographic_1162144.jpg?w=636&h=424') !important;
+  --users-popout: url('https://cdn.mos.cms.futurecdn.net/7GCPeSkqz3duhcXkg7E6H7-1200-80.jpg') !important;
 }
 
 /* Omyko */
 
 [user_by_bdfdb="607906558948671518"],
 [data-user-id="607906558948671518"] {
-	--user-background: url('https://cdn.discordapp.com/attachments/833750340280385598/834456275538542632/tenor.gif') !important;
-  --user-popout: url('https://cdn.discordapp.com/attachments/833750340280385598/834460362878353439/preview.jpg') !important;
+	--users-background: url('https://cdn.discordapp.com/attachments/833750340280385598/834456275538542632/tenor.gif') !important;
+  --users-popout: url('https://cdn.discordapp.com/attachments/833750340280385598/834460362878353439/preview.jpg') !important;
 }
