@@ -29,3 +29,27 @@
     filter: drop-shadow(0 0 1px #d5aafd);
     z-index: 1;
 }
+
+/* Omyko */
+
+.message-2qnXI6 .avatar-1BDn8e[src*="607906558948671518"] + h2 .username-1A8OIy {
+    color: rgb(179, 7, 7);
+    transition: filter .1s ease-in-out;
+    filter: brightness(100%);
+    background: -webkit-linear-gradient(60deg, #9c0e0c,  rgb(255, 76, 76), #612020);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: pulse 2s linear infinite;
+    
+}
+
+.message-2qnXI6 .avatar-1BDn8e[src*="607906558948671518"] + h2 .username-1A8OIy:hover {
+    filter: drop-shadow(0 0 1px #000000);
+    z-index: 1;
+}
+
+@keyframes pulse {
+    0%    {text-shadow: 0 0 10px rgb(255, 76, 76)}
+    50%   {text-shadow: 0 0 10px #9c0e0c}
+    100%  {text-shadow: 0 0 10px #520807}
+}
