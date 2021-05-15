@@ -39,7 +39,6 @@
     background: -webkit-linear-gradient(60deg, #9c0e0c,  rgb(255, 76, 76), #612020);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: pulse 2s linear infinite;
     
 }
 
@@ -48,8 +47,3 @@
     z-index: 1;
 }
 
-@keyframes pulse {
-    0%    {text-shadow: 0 0 10px rgb(255, 76, 76)}
-    50%   {text-shadow: 0 0 10px #9c0e0c}
-    100%  {text-shadow: 0 0 10px #520807}
-}
