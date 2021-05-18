@@ -36,11 +36,12 @@
     color: rgb(179, 7, 7);
     transition: filter .1s ease-in-out;
     filter: brightness(100%);
+    text-shadow: 1px 1px 5px #ff302e;
     background: -webkit-linear-gradient(60deg, #9c0e0c,  rgb(255, 76, 76), #612020);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
+
 
 .message-2qnXI6 .avatar-1BDn8e[src*="607906558948671518"] + h2 .username-1A8OIy:hover {
     filter: drop-shadow(0 0 1px #000000);
