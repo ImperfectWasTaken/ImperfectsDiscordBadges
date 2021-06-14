@@ -1,3 +1,58 @@
+/* ------------Fixes------------ */
+
+.profileBanner-33-uE1, .banner-2QYc2d {background-color: transparent !important;}
+.popoutBanner-19WKGg {display: none;}
+
+.headerTop-2cWpdB {
+    display: block;
+    padding: 112px 16px 16px;  
+}
+
+.profileBadges-3cJaE1 {
+  position: fixed;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  top: 10px;
+}
+
+.header-4zuFdR {
+  position: absolute;
+  display: block;
+  top: 75px;
+  padding: 16px 16px 0 160px;
+  left: 0px;
+}
+
+.badgeList-1R1WgZ {
+  position: fixed;
+  flex-direction: row;
+  margin-left: -270px;
+  margin-top: 93px;
+}
+
+.profileBadgePremium-1KDZYC {
+  margin: 0px -4px -4px;
+  left: -10px;
+}
+
+.avatarPositionPremium-3We5Ho {
+  top: 130px;
+  left: 100px;
+}
+
+.headerTop-547GTz{
+  padding: 7px 1px 0px;
+  position: fixed;
+  top: 10px !important;
+  left: 410px;
+}
+
+.actionButton-3vN-m0{
+  justify-content: flex-end;
+}
+
+.avatar-AvHqJA {border: none;}
 
 /* ------------User Popout------------ */
 
@@ -93,7 +148,6 @@
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   background-color: #b6b6b654
 }
-
 
 /* ------------User Profile Background------------ */
 
