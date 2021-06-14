@@ -1,6 +1,9 @@
 /* ------------Fixes------------ */
 
-.profileBanner-33-uE1, .banner-2QYc2d {background-color: transparent !important;}
+.betaBadge-1Ve-yb {display: none;}
+
+.avatar-AvHqJA, .profileBanner-33-uE1, .banner-2QYc2d {background-color: transparent !important;}
+
 .popoutBanner-19WKGg {display: none;}
 
 .headerTop-2cWpdB {
@@ -28,7 +31,7 @@
   position: fixed;
   flex-direction: row;
   margin-left: -270px;
-  margin-top: 93px;
+  margin-top: 1px;
 }
 
 .profileBadgePremium-1KDZYC {
