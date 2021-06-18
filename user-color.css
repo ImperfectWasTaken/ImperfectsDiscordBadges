@@ -48,3 +48,15 @@
     z-index: 1;
 }
 
+/*Meme-Man*/
+.cozy-3raOZG[data-user-id="540982793111470080"] {
+    background-image: linear-gradient(90deg, rgba(255,7,7,0.3) 0%, rgba(255,175,25,0.3) 14%, rgba(255,241,35,0.3) 28%, rgba(21,255,12,0.3) 42%, rgba(51,252,236,0.3) 54%, rgba(70,130,255,0.3) 68%, rgba(161,38,255,0.3) 82%, rgba(255,47,251,0.3) 100%);
+    animation: rainbow 5s linear 0s infinite normal;
+}
+
+@keyframes rainbow {
+  from{filter: hue-rotate(0deg)}
+  to{filter: hue-rotate(360deg);}
+}
+
+
