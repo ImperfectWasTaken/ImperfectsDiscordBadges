@@ -6,9 +6,13 @@
 
 .popoutBanner-19WKGg {display: none;}
 
-.headerTop-2cWpdB {
-    display: block;
-    padding: 112px 16px 16px;  
+.headerText-1vVs-U {
+  text-align: center;
+}
+
+.headerTop-3vNv-a {
+  padding: 106px 16px 12px;
+  display: block;
 }
 
 .profileBadges-3cJaE1 {
@@ -27,11 +31,12 @@
   left: 0px;
 }
 
-.badgeList-1R1WgZ {
+.profileBadges-ohc0Vu {
   position: fixed;
-  flex-direction: row;
-  margin-left: -270px;
-  margin-top: 1px;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  top: 10px;
 }
 
 .profileBadgePremium-1KDZYC {
