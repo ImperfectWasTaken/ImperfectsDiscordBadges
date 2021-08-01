@@ -79,6 +79,15 @@
   animation-play-state: paused;
 }
 
+#app-mount [data-user-id="301512451453616128"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="301512451453616128"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="301512451453616128"] .badges-XRnWAp::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://cdn.discordapp.com/emojis/790343724327632946.gif?v=1) center / 100% 100%;
+}
+
 /* Meme-Man */
 
 .avatar-1BDn8e[src*="540982793111470080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
