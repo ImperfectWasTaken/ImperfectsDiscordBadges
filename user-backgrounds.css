@@ -64,7 +64,7 @@
 
 /* ------------User Popout------------ */
 
-.userPopout-xaxa6l .wrapper-3t9DeA::after {
+.userPopout-xaxa6l::after {
 	content: '';
 	position: fixed;
 	top: 0;
