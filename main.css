@@ -148,6 +148,15 @@
     background-color .2s ease;
 }
 
+#app-mount [data-user-id="225739607847731200"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="225739607847731200"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="225739607847731200"] .badges-XRnWAp::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url("https://cdn.discordapp.com/emojis/786089811323650108.png?v=1") center / 100% 100%;
+};
+
 /* ------------ Keyframes ------------ */
 
 @keyframes rgb {
