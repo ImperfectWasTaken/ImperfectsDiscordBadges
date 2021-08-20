@@ -320,3 +320,11 @@
 	--users-background: url('https://cdn.discordapp.com/attachments/833750340280385598/840234488407916554/25f25de7f2f40817456dcd1b5a2e8a08.gif') !important;
   --users-popout: url('https://cdn.discordapp.com/attachments/833750340280385598/834460362878353439/preview.jpg') !important;
 }
+
+/* My Bot */
+
+[user_by_bdfdb="621682248495923241"],
+[data-user-id="621682248495923241"] {
+	--users-background: url('https://media4.giphy.com/media/3ohzdRbspPb7kWc7kc/giphy.gif?cid=ecf05e47zpd7nrudmajd7g1dnkb0zz4zrlv7nvzll5adbn0n&rid=giphy.gif&ct=g') !important;
+  --users-popout: url('https://media0.giphy.com/media/lzY64ar4NAulaZR8L0/giphy.gif?cid=ecf05e47aldvnj9lhp93qa4t0nwl8g4pmy6vjj8i0aijqkiu&rid=giphy.gif&ct=g') !important;
+}
