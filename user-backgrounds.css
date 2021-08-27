@@ -269,7 +269,7 @@
 
 [user_by_bdfdb="301512451453616128"],
 [data-user-id="301512451453616128"] {
-	--users-background: url('https://i.imgur.com/5A67B8r.gif') !important;
+	--users-background: url('https://i.imgur.com/jmX3A40.gif') !important;
   --users-popout: url('https://cdn.discordapp.com/attachments/745873644378390558/874350445827620894/9730b15ce1775927ae3e4c88d3bc147e.png') !important;
 }
 
@@ -327,4 +327,12 @@
 [data-user-id="621682248495923241"] {
 	--users-background: url('https://media4.giphy.com/media/3ohzdRbspPb7kWc7kc/giphy.gif?cid=ecf05e47zpd7nrudmajd7g1dnkb0zz4zrlv7nvzll5adbn0n&rid=giphy.gif&ct=g') !important;
   --users-popout: url('https://media0.giphy.com/media/lzY64ar4NAulaZR8L0/giphy.gif?cid=ecf05e47aldvnj9lhp93qa4t0nwl8g4pmy6vjj8i0aijqkiu&rid=giphy.gif&ct=g') !important;
+}
+
+/* Solange Clown */
+
+[user_by_bdfdb="674079360025886751"],
+[data-user-id="674079360025886751"] {
+	--users-background: url('https://c8.alamy.com/comp/JWF3RE/dumpsters-being-full-with-garbage-container-over-flowing-JWF3RE.jpg') !important;
+  --users-popout: url('https://cdn.discordapp.com/attachments/801547090169561140/880684435719225354/unknown.png') !important;
 }
