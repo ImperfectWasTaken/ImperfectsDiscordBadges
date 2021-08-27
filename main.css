@@ -155,7 +155,18 @@
   width: 22px;
   height: 22px;
   background: url("https://cdn.discordapp.com/emojis/786089811323650108.png?v=1") center / 100% 100%;
-};
+}
+
+/* L */
+
+#app-mount [data-user-id="747429330174607440"] .badgeList-1R1WgZ::after,
+#app-mount [data-user-id="747429330174607440"] .profileBadges-ohc0Vu::after,
+#app-mount [data-user-id="747429330174607440"] .badges-XRnWAp::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url("https://i.imgur.com/MpibCg6.gif") center / 100% 100%;
+}
 
 /* ------------ Keyframes ------------ */
 
