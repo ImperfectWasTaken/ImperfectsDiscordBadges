@@ -336,3 +336,11 @@
 	--users-background: url('https://c8.alamy.com/comp/JWF3RE/dumpsters-being-full-with-garbage-container-over-flowing-JWF3RE.jpg') !important;
   --users-popout: url('https://cdn.discordapp.com/attachments/801547090169561140/880684435719225354/unknown.png') !important;
 }
+
+/* L */
+
+[user_by_bdfdb="747429330174607440"],
+[data-user-id="747429330174607440"] {
+	--users-background: url('https://i.imgur.com/g6Pt36X.gif') !important;
+  --users-popout: url('https://i.imgur.com/eGfWkmc.gif') !important;
+}
