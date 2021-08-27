@@ -52,6 +52,14 @@
 
 .message-2qnXI6 .avatar-1BDn8e[src*="747429330174607440"] + h2 .username-1A8OIy {
     color: #ADF016 !important;
+    transition: filter .1s ease-in-out;
+    text-shadow: 2px 1px 5px #41f638,
+    -1px -1px 5px #646464;
+}
+
+.message-2qnXI6 .avatar-1BDn8e[src*="747429330174607440"] + h2 .username-1A8OIy:hover {
+    filter: drop-shadow(0 0 1px #bfbfbf);
+    z-index: 1;
 }
 
 /*Meme-Man*/
