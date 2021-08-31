@@ -38,6 +38,21 @@
   box-shadow: none !important;
 }
 
+/* ------------ Adds Users Background On Member Lists ------------ */
+
+.member-3-YXUe::before, .privateChannels-1nO12o a.channel-2QD9_O::before{
+  background-size: cover;
+  background:var(--users-background) center;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 4px;
+  -webkit-mask: linear-gradient(90deg, transparent, rgb(0, 0, 0));
+}
+
 /* ------------ User Badges ------------ */
 
 /* Mine */
