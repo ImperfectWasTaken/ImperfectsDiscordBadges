@@ -197,7 +197,7 @@
 
 @keyframes imperfect-glow {
   to {
-    filter: drop-shadow(0 0 8px #a989ff)
+    filter: drop-shadow(0 0 8px #000000)
   }
 }
 
