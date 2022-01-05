@@ -2,7 +2,7 @@
 
 /* Mine */
 
-/*.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy {
+.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy {
     color: rgb(255, 255, 255) !important;
     transition: filter .1s ease-in-out;
     text-shadow: 2px 1px 5px #881fff,
@@ -13,9 +13,9 @@
 .message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy:hover {
     filter: drop-shadow(0 0 1px #d5aafd);
     z-index: 1;
-}*/
+}
 
-.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy {
+/*.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy {
   background-image: linear-gradient(to left,#000000, #ff9900, #000000, #ff9900, #000000);
   animation: gradient-border 5s linear infinite;
   background-size: 400% 100%;
@@ -38,7 +38,7 @@
     100%{background-position:0% 50%}
 }
 
-
+*/
 
 /* Micheal */
 
