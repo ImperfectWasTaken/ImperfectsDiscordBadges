@@ -58,9 +58,9 @@
   align-items: center;
   content: "King ♔";
   text-transform: uppercase;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgba(0, 0, 0, 0);
   padding: 0 4px;
-  background-image: url(https://i.imgur.com/Txn4X7o.gif);
+  background-image: url(https://t4.ftcdn.net/jpg/05/28/90/43/360_F_528904350_V7GQhhRy5BxXu471ZkMye1fbr8jU0PHP.jpg);
   background-size:cover;
   font-size: 10px;
   font-weight: bold;
@@ -69,8 +69,7 @@
   margin: auto 0 auto 4px;
   text-decoration: none !important;
   filter: drop-shadow(0 0 1px #ffffff);
-  z-index: 1;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
   transition: filter .1s ease-in-out;
   text-shadow: 2px 1px 5px #000000,
   -1px -1px 5px #ffffff;
