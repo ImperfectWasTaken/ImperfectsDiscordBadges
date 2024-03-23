@@ -58,7 +58,7 @@
   align-items: center;
   content: "King ♔";
   text-transform: uppercase;
-  border: 2px solid rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
   padding: 0 4px;
   background-image: url(https://t4.ftcdn.net/jpg/05/28/90/43/360_F_528904350_V7GQhhRy5BxXu471ZkMye1fbr8jU0PHP.jpg);
   background-size:cover;
