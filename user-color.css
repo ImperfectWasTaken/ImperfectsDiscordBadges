@@ -1,101 +1,54 @@
 /* Colored Text For Specific Users */
 
+
 /* Mine */
 
-.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy {
+
+.repliedMessage_e2bf4a:has([src*="301512451453616128"]) .username_d30d99,
+.member_aa4760:has([src*="301512451453616128"]) .username_d272d6,
+.contents_f41bb2:has([src*="301512451453616128"]) .username_d30d99,
+.link__2e8e1:has([src*="301512451453616128"]) .overflow__87fe8,
+.children__32014:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div {
     color: rgb(255, 255, 255) !important;
     transition: filter .1s ease-in-out;
-    text-shadow: 2px 1px 5px #881fff,
-    -1px -1px 5px #00c8ff;
-    
+    text-shadow: 
+    1px 1px 4px #a989ff,
+    -1px -1px 4px #47b5ff,
+    1px -1px 4px #a989ff,
+    -1px 1px 4px #ffae34;
 }
 
-.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy:hover {
-    filter: drop-shadow(0 0 1px #d5aafd);
-    z-index: 1;
+
+.repliedMessage_e2bf4a:has([src*="301512451453616128"]) .username_d30d99:hover,
+.member_aa4760:has([src*="301512451453616128"]) .username_d272d6:hover,
+.contents_f41bb2:has([src*="301512451453616128"]) .username_d30d99:hover,
+.link__2e8e1:has([src*="301512451453616128"]) .overflow__87fe8:hover,
+.children__32014:has([src*="301512451453616128"]) .titleWrapper__482dc:hover > h1 > div {
+    filter: drop-shadow(0 0 2px #e693ff);
 }
 
-/*.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy {
-  background-image: linear-gradient(to left,#000000, #ff9900, #000000, #ff9900, #000000);
-  animation: gradient-border 5s linear infinite;
-  background-size: 400% 100%;
-  color: transparent !important;
-  transition: filter .1s ease-in-out;
-  -webkit-background-clip: text;
-  z-index: 1;
-  text-shadow: 1px 1px 2px #ff7300,
-  -1px -1px 2px #000000f3;
-}
 
-.message-2qnXI6 .avatar-1BDn8e[src*="301512451453616128"] + h2 .username-1A8OIy:hover {
-    filter: drop-shadow(0 0 3px #000000f3);
-    z-index: 1;
-}
+/* Love */
 
-@keyframes gradient-border {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
 
-*/
 
-/* Micheal */
-
-.message-2qnXI6 .avatar-1BDn8e[src*="265660477525196801"] + h2 .username-1A8OIy {
+.repliedMessage_e2bf4a:has([src*="493105382932086803"]) .username_d30d99,
+.member_aa4760:has([src*="493105382932086803"]) .username_d272d6,
+.contents_f41bb2:has([src*="493105382932086803"]) .username_d30d99,
+.link__2e8e1:has([src*="493105382932086803"]) .overflow__87fe8,
+.children__32014:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div {
     color: rgb(255, 255, 255) !important;
     transition: filter .1s ease-in-out;
-    text-shadow: 2px 1px 5px #ffffff,
-    -1px -1px 5px #00c8ff;
-
+    text-shadow: 2px 1px 5px #fd89e0,
+    -1px -1px 5px #fdc2ff;
 }
 
-.message-2qnXI6 .avatar-1BDn8e[src*="265660477525196801"] + h2 .username-1A8OIy:hover {
+
+.repliedMessage_e2bf4a:has([src*="493105382932086803"]) .username_d30d99:hover,
+.member_aa4760:has([src*="493105382932086803"]) .username_d272d6:hover,
+.contents_f41bb2:has([src*="493105382932086803"]) .username_d30d99:hover,
+.link__2e8e1:has([src*="493105382932086803"]) .overflow__87fe8:hover,
+.children__32014:has([src*="493105382932086803"]) .titleWrapper__482dc:hover > h1 > div {
     filter: drop-shadow(0 0 1px #d5aafd);
-    z-index: 1;
 }
-
-/* Omyko */
-
-.message-2qnXI6 .avatar-1BDn8e[src*="607906558948671518"] + h2 .username-1A8OIy {
-    color: rgb(179, 7, 7);
-    transition: filter .1s ease-in-out;
-    filter: brightness(100%);
-    text-shadow: 1px 1px 5px #ff302e;
-    background: -webkit-linear-gradient(60deg, #9c0e0c,  rgb(255, 76, 76), #612020);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-.message-2qnXI6 .avatar-1BDn8e[src*="607906558948671518"] + h2 .username-1A8OIy:hover {
-    filter: drop-shadow(0 0 1px #000000);
-    z-index: 1;
-}
-
-/* L */
-
-.message-2qnXI6 .avatar-1BDn8e[src*="747429330174607440"] + h2 .username-1A8OIy {
-    color: #ADF016 !important;
-    transition: filter .1s ease-in-out;
-    text-shadow: 2px 1px 5px #41f638,
-    -1px -1px 5px #646464;
-}
-
-.message-2qnXI6 .avatar-1BDn8e[src*="747429330174607440"] + h2 .username-1A8OIy:hover {
-    filter: drop-shadow(0 0 1px #bfbfbf);
-    z-index: 1;
-}
-
-/*Meme-Man*/
-.cozy-3raOZG[data-user-id="540982793111470080"] {
-    background-image: linear-gradient(90deg, rgba(255,7,7,0.3) 0%, rgba(255,175,25,0.3) 14%, rgba(255,241,35,0.3) 28%, rgba(21,255,12,0.3) 42%, rgba(51,252,236,0.3) 54%, rgba(70,130,255,0.3) 68%, rgba(161,38,255,0.3) 82%, rgba(255,47,251,0.3) 100%);
-    animation: rainbow 5s linear 0s infinite normal;
-}
-
-@keyframes rainbow {
-  from{filter: hue-rotate(0deg)}
-  to{filter: hue-rotate(360deg);}
-}
-
-
+ 
