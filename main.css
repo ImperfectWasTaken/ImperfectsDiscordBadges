@@ -1,203 +1,287 @@
-@import url('https://imperfectwastaken.github.io/ImperfectsDiscordBadges/user-backgrounds.css');
-@import url('https://imperfectwastaken.github.io/ImperfectsDiscordBadges/user-borders.css');
 @import url('https://imperfectwastaken.github.io/ImperfectsDiscordBadges/user-color.css');
 
-/* Me crying when making this 😭 */
-/* ------------ Structures the users profile picture ------------ */
 
-.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  display: inline-block;
-  height: 14px;
-  width: 14px;
-  line-height: 14px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url('');
-  position: relative;
-  top: 2px;
-  margin-left: 5px;
+.channel_c21703:hover .closeButton__8f1fd, .channel_c21703:focus-within .closeButton__8f1fd {
+  display:none;
+}
+
+.interactive__776ee:hover{
+  display:flex;
 }
 
 
-.avatar-1BDn8e[src*="301512451453616128"]:hover + h2::after{
-  color: white;
-  transform: none;
-  background-size: cover;
-  background-position: center;
-  padding: 3px 10px !important;
-  height: auto;
-  width: fit-content !important;
-  box-sizing: border-box !important;
-  white-space: nowrap !important;
-  bottom: -31px !important;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  filter: none;
-  display: block !important;
-  background-color: transparent;
-  box-shadow: none !important;
+
+/*-----------------------------Me----------------------------------*/
+
+
+
+
+.children__32014:has([src*="301512451453616128"]) .headerText_f47574,
+.children__32014:has([src*="301512451453616128"]) .username__81ee6,
+.children__32014:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div,
+.contents_f41bb2:has([src*="301512451453616128"]) .overflow__87fe8,
+.contents_f41bb2:has([src*="301512451453616128"]) .headerText_f47574,
+.contents_f41bb2:has([src*="301512451453616128"]) .username__81ee6,
+.contents_f41bb2:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div,
+.link__2e8e1:has([src*="301512451453616128"]) .overflow__87fe8,
+.link__2e8e1:has([src*="301512451453616128"]) .headerText_f47574,
+.link__2e8e1:has([src*="301512451453616128"]) .username__81ee6,
+.link__2e8e1:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div,
+.userInfo__18240:has([src*="301512451453616128"]) .overflow__87fe8,
+.userInfo__18240:has([src*="301512451453616128"]) .headerText_f47574,
+.userInfo__18240:has([src*="301512451453616128"]) .username__81ee6,
+.userInfo__18240:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div {
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
-/* ------------ Adds Users Background On Member Lists ------------ */
 
-.member-3-YXUe::before, .privateChannels-1nO12o a.channel-2QD9_O::before{
-  background-size: cover;
-  background:var(--users-background) center;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+
+.children__32014:has([src*="301512451453616128"]) .headerText_f47574:after,
+.children__32014:has([src*="301512451453616128"]) .username__81ee6:after,
+.children__32014:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div:after,
+.contents_f41bb2:has([src*="301512451453616128"]) .overflow__87fe8:after,
+.contents_f41bb2:has([src*="301512451453616128"]) .headerText_f47574:after,
+.contents_f41bb2:has([src*="301512451453616128"]) .username__81ee6:after,
+.contents_f41bb2:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div:after,
+.link__2e8e1:has([src*="301512451453616128"]) .overflow__87fe8:after,
+.link__2e8e1:has([src*="301512451453616128"]) .headerText_f47574:after,
+.link__2e8e1:has([src*="301512451453616128"]) .username__81ee6:after,
+.link__2e8e1:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div:after,
+.userInfo__18240:has([src*="301512451453616128"]) .overflow__87fe8:after,
+.userInfo__18240:has([src*="301512451453616128"]) .headerText_f47574:after,
+.userInfo__18240:has([src*="301512451453616128"]) .username__81ee6:after,
+.userInfo__18240:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div:after {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  content: "King ♔";
+  text-transform: uppercase;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 0 4px;
+  background-image: url(https://i.imgur.com/Txn4X7o.gif);
+  background-size:cover;
+  font-size: 10px;
+  font-weight: bold;
+  height: 15px;
   border-radius: 4px;
-  -webkit-mask: linear-gradient(90deg, transparent, rgb(0, 0, 0));
+  margin: auto 0 auto 4px;
+  text-decoration: none !important;
+  filter: drop-shadow(0 0 1px #ffffff);
+  z-index: 1;
+  color: rgb(255, 255, 255) !important;
+  transition: filter .1s ease-in-out;
+  text-shadow: 2px 1px 5px #000000,
+  -1px -1px 5px #ffffff;
 }
 
-/* ------------ User Badges ------------ */
 
-/* Mine */
 
-.avatar-1BDn8e[src*="301512451453616128"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "";
-  background-image: url('https://cdn.shopify.com/s/files/1/1061/1924/products/Fish_emoji_icon_png_large.png?v=1571606088');
-  transform: scale(1.4);
-  border-color: transparent !important;
-  background-color: transparent !important;
-  }
-  
-.avatar-1BDn8e[src*="301512451453616128"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "Mf Fish Jenga";
-  animation: fadeIn .5s;
-  color: white;
-  border-color: white;
-  width: 150px;
-  top: -1px;
-  font-size: 14px;
-  text-align: center;
-  text-shadow: 2px 2px 1px black;
-  border-radius: 4px;
-  padding: 2px 5px;
+
+
+
+/*---------------------------Love----------------------------------*/
+
+
+
+
+
+
+
+.children__32014:has([src*="493105382932086803"]) .headerText_f47574,
+.children__32014:has([src*="493105382932086803"]) .username__81ee6,
+.children__32014:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div,
+.contents_f41bb2:has([src*="493105382932086803"]) .overflow__87fe8,
+.contents_f41bb2:has([src*="493105382932086803"]) .headerText_f47574,
+.contents_f41bb2:has([src*="493105382932086803"]) .username__81ee6,
+.contents_f41bb2:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div,
+.link__2e8e1:has([src*="493105382932086803"]) .headerText_f47574,
+.link__2e8e1:has([src*="493105382932086803"]) .username__81ee6,
+.link__2e8e1:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div,
+.link__2e8e1:has([src*="493105382932086803"]) .overflow__87fe8,
+.userInfo__18240:has([src*="493105382932086803"]) .overflow__87fe8,
+.userInfo__18240:has([src*="493105382932086803"]) .headerText_f47574,
+.userInfo__18240:has([src*="493105382932086803"]) .username__81ee6,
+.userInfo__18240:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+.children__32014:has([src*="493105382932086803"]) .headerText_f47574:after,
+.children__32014:has([src*="493105382932086803"]) .username__81ee6:after,
+.children__32014:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div:after,
+.contents_f41bb2:has([src*="493105382932086803"]) .overflow__87fe8:after,
+.contents_f41bb2:has([src*="493105382932086803"]) .headerText_f47574:after,
+.contents_f41bb2:has([src*="493105382932086803"]) .username__81ee6:after,
+.contents_f41bb2:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div:after,
+.link__2e8e1:has([src*="493105382932086803"]) .overflow__87fe8:after,
+.link__2e8e1:has([src*="493105382932086803"]) .headerText_f47574:after,
+.link__2e8e1:has([src*="493105382932086803"]) .username__81ee6:after,
+.link__2e8e1:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div:after,
+.userInfo__18240:has([src*="493105382932086803"]) .overflow__87fe8:after,
+.userInfo__18240:has([src*="493105382932086803"]) .headerText_f47574:after,
+.userInfo__18240:has([src*="493105382932086803"]) .username__81ee6:after,
+.userInfo__18240:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div:after {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  content: "Queen ♕";
+  text-transform: uppercase;
+  border: 1px solid rgba(94, 91, 91, 0);
+  padding: 0 4px;
+  background-image: url(https://slidescorner.com/wp-content/uploads/2023/02/01-Cute-Pink-Hearts-Valentines-Day-Background-Aesthetic-FREE-by-SlidesCorner.com_.jpg);
   background-size: cover;
-  background-image: url(https://i.gifer.com/origin/ec/ec7864cb87bd557bb129135e442752b1_w200.gif);
-  transform: scale(1);
-  transition: 
-    color .2s ease,
-    background-color .2s ease;
-}
-
-.contents-2mQqc9 .avatar-1BDn8e[src*="301512451453616128"] {
-  animation: imperfect-glow 2s ease-in-out infinite alternate;
-  transition: filter 3s ease-in-out;
-}
-
-.contents-2mQqc9 .avatar-1BDn8e[src*="301512451453616128"]:hover {
-  animation-play-state: paused;
-}
-
-#app-mount [data-user-id="301512451453616128"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="301512451453616128"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="301512451453616128"] .badges-XRnWAp::after {
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: url(https://cdn.discordapp.com/emojis/481118993374117889.gif?v=1) center / 100% 100%;
-}
-
-/* Meme-Man */
-
-.avatar-1BDn8e[src*="540982793111470080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "";
-  background-image: url('https://i.imgur.com/veSnRnV.png');
-  transform: scale(1.4);
-  border-color: transparent !important;
-  background-color: transparent !important;
-  }
-  
-.avatar-1BDn8e[src*="540982793111470080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "LGBTQ Commander";
-  animation: fadeIn .5s, rgb 2s linear infinite;
-  color: #ffffff;
-  width: 150px;
-  font-size: 14px;
-  text-align: center;
+  background-color: var(--brand-experiment-50a);
+  font-size: 10px;
+  font-weight: bold;
+  height: 15px;
   border-radius: 4px;
-  padding: 2px 5px;
-  text-shadow: 2px 2px 1px black;
+  margin: auto 0 auto 4px;
+  text-decoration: none !important;
+  filter: drop-shadow(0 0 2px #f8aaff);
+  z-index: 1;
+  color: rgb(0, 0, 0) !important;
+  transition: filter .1s ease-in-out;
+}
+
+
+
+
+/*----------------------------LUNA------------------------------*/
+
+
+
+
+
+.children__32014:has([src*="994717784770613430"]) .overflow__87fe8,
+.children__32014:has([src*="994717784770613430"]) .headerText_f47574,
+.children__32014:has([src*="994717784770613430"]) .username__81ee6,
+.children__32014:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div,
+.contents_f41bb2:has([src*="994717784770613430"]) .overflow__87fe8,
+.contents_f41bb2:has([src*="994717784770613430"]) .headerText_f47574,
+.contents_f41bb2:has([src*="994717784770613430"]) .username__81ee6,
+.contents_f41bb2:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div,
+.link__2e8e1:has([src*="994717784770613430"]) .overflow__87fe8,
+.link__2e8e1:has([src*="994717784770613430"]) .headerText_f47574,
+.link__2e8e1:has([src*="994717784770613430"]) .username__81ee6,
+.link__2e8e1:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div,
+.userInfo__18240:has([src*="994717784770613430"]) .overflow__87fe8,
+.userInfo__18240:has([src*="994717784770613430"]) .headerText_f47574,
+.userInfo__18240:has([src*="994717784770613430"]) .username__81ee6,
+.userInfo__18240:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+
+.children__32014:has([src*="994717784770613430"]) .overflow__87fe8:after,
+.children__32014:has([src*="994717784770613430"]) .headerText_f47574:after,
+.children__32014:has([src*="994717784770613430"]) .username__81ee6:after,
+.children__32014:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div:after,
+.contents_f41bb2:has([src*="994717784770613430"]) .overflow__87fe8:after,
+.contents_f41bb2:has([src*="994717784770613430"]) .headerText_f47574:after,
+.contents_f41bb2:has([src*="994717784770613430"]) .username__81ee6:after,
+.contents_f41bb2:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div:after,
+.link__2e8e1:has([src*="994717784770613430"]) .overflow__87fe8:after,
+.link__2e8e1:has([src*="994717784770613430"]) .headerText_f47574:after,
+.link__2e8e1:has([src*="994717784770613430"]) .username__81ee6:after,
+.link__2e8e1:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div:after,
+.userInfo__18240:has([src*="994717784770613430"]) .overflow__87fe8:after,
+.userInfo__18240:has([src*="994717784770613430"]) .headerText_f47574:after,
+.userInfo__18240:has([src*="994717784770613430"]) .username__81ee6:after,
+.userInfo__18240:has([src*="994717784770613430"]) .titleWrapper__482dc > h1 > div:after {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  content: "Akin to the stars";
+  text-transform: uppercase;
+  border: 1px solid rgb(94, 91, 91);
+  padding: 0 4px;
+  background-image: url(https://i.gifer.com/TaT4.gif);
   background-size: cover;
-  background-image: url('https://i.imgur.com/veSnRnV.png') !important;
-  background-attachment: fixed;
-  transform: scale(1);
-}
-
-.contents-2mQqc9 .avatar-1BDn8e[src*="540982793111470080"]:hover {
-  animation-play-state: paused;
-  animation: rgb 2s linear infinite;
-}
-
-/* itsgrimboi */
-
-.avatar-1BDn8e[src*="225739607847731200"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "";
-  background-image: url('https://i.imgur.com/8EsecpG.png');
-  transform: scale(1.6);
-  border-color: transparent !important;
-  background-color: transparent !important;
-  }
-  
-.avatar-1BDn8e[src*="225739607847731200"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "He's Sus! 😮";
-  animation: fadeIn .5s;
-  color: white;
-  border-color: white;
-  width: 150px;
-  top: -1px;
-  font-size: 14px;
-  text-align: center;
+  background-color: var(--brand-experiment-50a);
+  font-size: 10px;
+  height: 15px;
   border-radius: 4px;
-  padding: 2px 5px;
+  margin: auto 0 auto 4px;
+  text-decoration: none !important;
+  color: var(--interactive-active);
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+
+
+
+/*----------------------------Quinn-----------------------------------*/
+
+
+
+
+.children__32014:has([src*="876665886382116864"]) .overflow__87fe8,
+.children__32014:has([src*="876665886382116864"]) .headerText_f47574,
+.children__32014:has([src*="876665886382116864"]) .username__81ee6,
+.children__32014:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div,
+.contents_f41bb2:has([src*="876665886382116864"]) .overflow__87fe8,
+.contents_f41bb2:has([src*="876665886382116864"]) .headerText_f47574,
+.contents_f41bb2:has([src*="876665886382116864"]) .username__81ee6,
+.contents_f41bb2:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div,
+.link__2e8e1:has([src*="876665886382116864"]) .overflow__87fe8,
+.link__2e8e1:has([src*="876665886382116864"]) .headerText_f47574,
+.link__2e8e1:has([src*="876665886382116864"]) .username__81ee6,
+.link__2e8e1:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div,
+.userInfo__18240:has([src*="876665886382116864"]) .overflow__87fe8,
+.userInfo__18240:has([src*="876665886382116864"]) .headerText_f47574,
+.userInfo__18240:has([src*="876665886382116864"]) .username__81ee6,
+.userInfo__18240:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+
+.children__32014:has([src*="876665886382116864"]) .overflow__87fe8:after,
+.children__32014:has([src*="876665886382116864"]) .headerText_f47574:after,
+.children__32014:has([src*="876665886382116864"]) .username__81ee6:after,
+.children__32014:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div:after,
+.contents_f41bb2:has([src*="876665886382116864"]) .overflow__87fe8:after,
+.contents_f41bb2:has([src*="876665886382116864"]) .headerText_f47574:after,
+.contents_f41bb2:has([src*="876665886382116864"]) .username__81ee6:after,
+.contents_f41bb2:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div:after,
+.link__2e8e1:has([src*="876665886382116864"]) .overflow__87fe8:after,
+.link__2e8e1:has([src*="876665886382116864"]) .headerText_f47574:after,
+.link__2e8e1:has([src*="876665886382116864"]) .username__81ee6:after,
+.link__2e8e1:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div:after,
+.userInfo__18240:has([src*="876665886382116864"]) .overflow__87fe8:after,
+.userInfo__18240:has([src*="876665886382116864"]) .headerText_f47574:after,
+.userInfo__18240:has([src*="876665886382116864"]) .username__81ee6:after,
+.userInfo__18240:has([src*="876665886382116864"]) .titleWrapper__482dc > h1 > div:after {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  content: "Trashcan";
+  text-transform: uppercase;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0 4px;
+  background-image: url(https://www.adobe.com/content/dam/cc/us/en/creativecloud/design/discover/color-chartreuse/color-chartreuse_fb-img_1200x800.jpg);
   background-size: cover;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(253,45,45,1) 100%);
-  transform: scale(1);
-  transition: 
-    color .2s ease,
-    background-color .2s ease;
+  background-color: var(--brand-experiment-50a);
+  font-size: 10px;
+  height: 15px;
+  font-weight: bolder;
+  border-radius: 4px;
+  margin: auto 0 auto 4px;
+  text-decoration: none !important;
+  color: black;
 }
 
-#app-mount [data-user-id="225739607847731200"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="225739607847731200"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="225739607847731200"] .badges-XRnWAp::after {
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: url("https://cdn.discordapp.com/emojis/786089811323650108.png?v=1") center / 100% 100%;
-}
-
-/* L */
-
-#app-mount [data-user-id="747429330174607440"] .badgeList-1R1WgZ::after,
-#app-mount [data-user-id="747429330174607440"] .profileBadges-ohc0Vu::after,
-#app-mount [data-user-id="747429330174607440"] .badges-XRnWAp::after {
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: url("https://i.imgur.com/MpibCg6.gif") center / 100% 100%;
-}
-
-/* ------------ Keyframes ------------ */
-
-@keyframes rgb {
-  from{filter: hue-rotate(0deg)}
-  to{filter: hue-rotate(360deg);}
-}
-
-@keyframes fadeIn {
-  from{opacity: 0;}
-  to{opacity: 1;}
-}
-
-@keyframes imperfect-glow {
-  to {
-    filter: drop-shadow(0 0 8px #000000)
-  }
-}
 
