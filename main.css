@@ -9,7 +9,14 @@
   display:flex;
 }
 
+.indicatorContainer.type_Chat{
+  order: 1;
+}
 
+.header__39b23{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 /*-----------------------------Me----------------------------------*/
 
