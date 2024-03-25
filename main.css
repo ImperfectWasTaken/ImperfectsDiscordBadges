@@ -18,6 +18,9 @@
     flex-direction: row-reverse;
 }
 
+.nameAndDecorators_cfd1ff > div:nth-child(2){
+  display: none;
+}
 /*-----------------------------Me----------------------------------*/
 
 
