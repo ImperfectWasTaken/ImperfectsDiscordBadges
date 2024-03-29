@@ -4,11 +4,11 @@
 /* Mine */
 
 
-.repliedMessage_e2bf4a:has([src*="301512451453616128"]) .username_d30d99,
+.repliedMessage__636d2:has([src*="301512451453616128"]) .username__0b0e7,
 .member_aa4760:has([src*="301512451453616128"]) .username_d272d6,
-.contents_f41bb2:has([src*="301512451453616128"]) .username_d30d99,
-.link__2e8e1:has([src*="301512451453616128"]) .overflow__87fe8,
-.children__32014:has([src*="301512451453616128"]) .titleWrapper__482dc > h1 > div {
+.contents_d3ae0d:has([src*="301512451453616128"]) .username__0b0e7,
+.link__3a950:has([src*="301512451453616128"]) .overflow__993fa,
+.children_cde9af:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div {
     color: rgb(255, 255, 255) !important;
     transition: filter .1s ease-in-out;
     text-shadow: 
@@ -19,11 +19,11 @@
 }
 
 
-.repliedMessage_e2bf4a:has([src*="301512451453616128"]) .username_d30d99:hover,
+.repliedMessage__636d2:has([src*="301512451453616128"]) .username__0b0e7:hover,
 .member_aa4760:has([src*="301512451453616128"]) .username_d272d6:hover,
-.contents_f41bb2:has([src*="301512451453616128"]) .username_d30d99:hover,
-.link__2e8e1:has([src*="301512451453616128"]) .overflow__87fe8:hover,
-.children__32014:has([src*="301512451453616128"]) .titleWrapper__482dc:hover > h1 > div {
+.contents_d3ae0d:has([src*="301512451453616128"]) .username__0b0e7:hover,
+.link__3a950:has([src*="301512451453616128"]) .overflow__993fa:hover,
+.children_cde9af:has([src*="301512451453616128"]) .titleWrapper_d6133e:hover > h1 > div {
     filter: drop-shadow(0 0 2px #e693ff);
 }
 
@@ -32,11 +32,11 @@
 
 
 
-.repliedMessage_e2bf4a:has([src*="493105382932086803"]) .username_d30d99,
+.repliedMessage__636d2:has([src*="493105382932086803"]) .username__0b0e7,
 .member_aa4760:has([src*="493105382932086803"]) .username_d272d6,
-.contents_f41bb2:has([src*="493105382932086803"]) .username_d30d99,
-.link__2e8e1:has([src*="493105382932086803"]) .overflow__87fe8,
-.children__32014:has([src*="493105382932086803"]) .titleWrapper__482dc > h1 > div {
+.contents_d3ae0d:has([src*="493105382932086803"]) .username__0b0e7,
+.link__3a950:has([src*="493105382932086803"]) .overflow__993fa,
+.children_cde9af:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div {
     color: rgb(255, 255, 255) !important;
     transition: filter .1s ease-in-out;
     text-shadow: 2px 1px 5px #fd89e0,
@@ -44,11 +44,11 @@
 }
 
 
-.repliedMessage_e2bf4a:has([src*="493105382932086803"]) .username_d30d99:hover,
+.repliedMessage__636d2:has([src*="493105382932086803"]) .username__0b0e7:hover,
 .member_aa4760:has([src*="493105382932086803"]) .username_d272d6:hover,
-.contents_f41bb2:has([src*="493105382932086803"]) .username_d30d99:hover,
-.link__2e8e1:has([src*="493105382932086803"]) .overflow__87fe8:hover,
-.children__32014:has([src*="493105382932086803"]) .titleWrapper__482dc:hover > h1 > div {
+.contents_d3ae0d:has([src*="493105382932086803"]) .username__0b0e7:hover,
+.link__3a950:has([src*="493105382932086803"]) .overflow__993fa:hover,
+.children_cde9af:has([src*="493105382932086803"]) .titleWrapper_d6133e:hover > h1 > div {
     filter: drop-shadow(0 0 1px #d5aafd);
 }
  
