@@ -1,11 +1,11 @@
 @import url('https://imperfectwastaken.github.io/ImperfectsDiscordBadges/user-color.css');
 
 
-.channel__0aef5:hover .closeButton__116c3, .channel__0aef5:focus-within .closeButton__116c3 {
+.channel_c91bad:hover .closeButton_c91bad, .channel_c91bad:focus-within .closeButton_c91bad {
   display:none;
 }
 
-.interactive__0786a:hover{
+.interactive_f5eb4b:hover{
   display:flex;
 }
 
@@ -13,12 +13,12 @@
   order: 1;
 }
 
-.header__6a14d{
+.header_f9f2ca{
     display: flex;
     flex-direction: row-reverse;
 }
 
-.nameAndDecorators_c896d6 > div:nth-child(2){
+.nameAndDecorators_ec8679 > div:nth-child(2){
   display: none;
 }
 /*-----------------------------Me----------------------------------*/
@@ -26,42 +26,42 @@
 
 
 
-.children_cde9af:has([src*="301512451453616128"]) .headerText_bd68ec,
-.children_cde9af:has([src*="301512451453616128"]) .username__267df,
-.children_cde9af:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div,
-.contents_d3ae0d:has([src*="301512451453616128"]) .overflow__993fa,
-.contents_d3ae0d:has([src*="301512451453616128"]) .headerText_bd68ec,
-.contents_d3ae0d:has([src*="301512451453616128"]) .username__267df,
-.contents_d3ae0d:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div,
-.link__3a950:has([src*="301512451453616128"]) .overflow__993fa,
-.link__3a950:has([src*="301512451453616128"]) .headerText_bd68ec,
-.link__3a950:has([src*="301512451453616128"]) .username__267df,
-.link__3a950:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div,
-.userInfo__83819:has([src*="301512451453616128"]) .overflow__993fa,
-.userInfo__83819:has([src*="301512451453616128"]) .headerText_bd68ec,
-.userInfo__83819:has([src*="301512451453616128"]) .username__267df,
-.userInfo__83819:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div {
+.children_fc4f04:has([src*="301512451453616128"]) .headerText_f9f2ca,
+.children_fc4f04:has([src*="301512451453616128"]) .username_f3939d,
+.children_fc4f04:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div,
+.contents_f9f2ca:has([src*="301512451453616128"]) .overflow_a82120,
+.contents_f9f2ca:has([src*="301512451453616128"]) .headerText_f9f2ca,
+.contents_f9f2ca:has([src*="301512451453616128"]) .username_f3939d,
+.contents_f9f2ca:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div,
+.link_c91bad:has([src*="301512451453616128"]) .overflow_a82120,
+.link_c91bad:has([src*="301512451453616128"]) .headerText_f9f2ca,
+.link_c91bad:has([src*="301512451453616128"]) .username_f3939d,
+.link_c91bad:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div,
+.userInfo_f3939d:has([src*="301512451453616128"]) .overflow_a82120,
+.userInfo_f3939d:has([src*="301512451453616128"]) .headerText_f9f2ca,
+.userInfo_f3939d:has([src*="301512451453616128"]) .username_f3939d,
+.userInfo_f3939d:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div {
   display: inline-flex;
   flex-wrap: wrap;
 }
 
 
 
-.children_cde9af:has([src*="301512451453616128"]) .headerText_bd68ec:after,
-.children_cde9af:has([src*="301512451453616128"]) .username__267df:after,
-.children_cde9af:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div:after,
-.contents_d3ae0d:has([src*="301512451453616128"]) .overflow__993fa:after,
-.contents_d3ae0d:has([src*="301512451453616128"]) .headerText_bd68ec:after,
-.contents_d3ae0d:has([src*="301512451453616128"]) .username__267df:after,
-.contents_d3ae0d:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div:after,
-.link__3a950:has([src*="301512451453616128"]) .overflow__993fa:after,
-.link__3a950:has([src*="301512451453616128"]) .headerText_bd68ec:after,
-.link__3a950:has([src*="301512451453616128"]) .username__267df:after,
-.link__3a950:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div:after,
-.userInfo__83819:has([src*="301512451453616128"]) .overflow__993fa:after,
-.userInfo__83819:has([src*="301512451453616128"]) .headerText_bd68ec:after,
-.userInfo__83819:has([src*="301512451453616128"]) .username__267df:after,
-.userInfo__83819:has([src*="301512451453616128"]) .titleWrapper_d6133e > h1 > div:after {
+.children_fc4f04:has([src*="301512451453616128"]) .headerText_f9f2ca:after,
+.children_fc4f04:has([src*="301512451453616128"]) .username_f3939d:after,
+.children_fc4f04:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div:after,
+.contents_f9f2ca:has([src*="301512451453616128"]) .overflow_a82120:after,
+.contents_f9f2ca:has([src*="301512451453616128"]) .headerText_f9f2ca:after,
+.contents_f9f2ca:has([src*="301512451453616128"]) .username_f3939d:after,
+.contents_f9f2ca:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div:after,
+.link_c91bad:has([src*="301512451453616128"]) .overflow_a82120:after,
+.link_c91bad:has([src*="301512451453616128"]) .headerText_f9f2ca:after,
+.link_c91bad:has([src*="301512451453616128"]) .username_f3939d:after,
+.link_c91bad:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div:after,
+.userInfo_f3939d:has([src*="301512451453616128"]) .overflow_a82120:after,
+.userInfo_f3939d:has([src*="301512451453616128"]) .headerText_f9f2ca:after,
+.userInfo_f3939d:has([src*="301512451453616128"]) .username_f3939d:after,
+.userInfo_f3939d:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
@@ -98,21 +98,21 @@
 
 
 
-.children_cde9af:has([src*="493105382932086803"]) .headerText_bd68ec,
-.children_cde9af:has([src*="493105382932086803"]) .username__267df,
-.children_cde9af:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div,
-.contents_d3ae0d:has([src*="493105382932086803"]) .overflow__993fa,
-.contents_d3ae0d:has([src*="493105382932086803"]) .headerText_bd68ec,
-.contents_d3ae0d:has([src*="493105382932086803"]) .username__267df,
-.contents_d3ae0d:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div,
-.link__3a950:has([src*="493105382932086803"]) .headerText_bd68ec,
-.link__3a950:has([src*="493105382932086803"]) .username__267df,
-.link__3a950:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div,
-.link__3a950:has([src*="493105382932086803"]) .overflow__993fa,
-.userInfo__83819:has([src*="493105382932086803"]) .overflow__993fa,
-.userInfo__83819:has([src*="493105382932086803"]) .headerText_bd68ec,
-.userInfo__83819:has([src*="493105382932086803"]) .username__267df,
-.userInfo__83819:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div {
+.children_fc4f04:has([src*="493105382932086803"]) .headerText_f9f2ca,
+.children_fc4f04:has([src*="493105382932086803"]) .username_f3939d,
+.children_fc4f04:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div,
+.contents_f9f2ca:has([src*="493105382932086803"]) .overflow_a82120,
+.contents_f9f2ca:has([src*="493105382932086803"]) .headerText_f9f2ca,
+.contents_f9f2ca:has([src*="493105382932086803"]) .username_f3939d,
+.contents_f9f2ca:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div,
+.link_c91bad:has([src*="493105382932086803"]) .headerText_f9f2ca,
+.link_c91bad:has([src*="493105382932086803"]) .username_f3939d,
+.link_c91bad:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div,
+.link_c91bad:has([src*="493105382932086803"]) .overflow_a82120,
+.userInfo_f3939d:has([src*="493105382932086803"]) .overflow_a82120,
+.userInfo_f3939d:has([src*="493105382932086803"]) .headerText_f9f2ca,
+.userInfo_f3939d:has([src*="493105382932086803"]) .username_f3939d,
+.userInfo_f3939d:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div {
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -121,21 +121,21 @@
 
 
 
-.children_cde9af:has([src*="493105382932086803"]) .headerText_bd68ec:after,
-.children_cde9af:has([src*="493105382932086803"]) .username__267df:after,
-.children_cde9af:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div:after,
-.contents_d3ae0d:has([src*="493105382932086803"]) .overflow__993fa:after,
-.contents_d3ae0d:has([src*="493105382932086803"]) .headerText_bd68ec:after,
-.contents_d3ae0d:has([src*="493105382932086803"]) .username__267df:after,
-.contents_d3ae0d:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div:after,
-.link__3a950:has([src*="493105382932086803"]) .overflow__993fa:after,
-.link__3a950:has([src*="493105382932086803"]) .headerText_bd68ec:after,
-.link__3a950:has([src*="493105382932086803"]) .username__267df:after,
-.link__3a950:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div:after,
-.userInfo__83819:has([src*="493105382932086803"]) .overflow__993fa:after,
-.userInfo__83819:has([src*="493105382932086803"]) .headerText_bd68ec:after,
-.userInfo__83819:has([src*="493105382932086803"]) .username__267df:after,
-.userInfo__83819:has([src*="493105382932086803"]) .titleWrapper_d6133e > h1 > div:after {
+.children_fc4f04:has([src*="493105382932086803"]) .headerText_f9f2ca:after,
+.children_fc4f04:has([src*="493105382932086803"]) .username_f3939d:after,
+.children_fc4f04:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div:after,
+.contents_f9f2ca:has([src*="493105382932086803"]) .overflow_a82120:after,
+.contents_f9f2ca:has([src*="493105382932086803"]) .headerText_f9f2ca:after,
+.contents_f9f2ca:has([src*="493105382932086803"]) .username_f3939d:after,
+.contents_f9f2ca:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div:after,
+.link_c91bad:has([src*="493105382932086803"]) .overflow_a82120:after,
+.link_c91bad:has([src*="493105382932086803"]) .headerText_f9f2ca:after,
+.link_c91bad:has([src*="493105382932086803"]) .username_f3939d:after,
+.link_c91bad:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div:after,
+.userInfo_f3939d:has([src*="493105382932086803"]) .overflow_a82120:after,
+.userInfo_f3939d:has([src*="493105382932086803"]) .headerText_f9f2ca:after,
+.userInfo_f3939d:has([src*="493105382932086803"]) .username_f3939d:after,
+.userInfo_f3939d:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
@@ -168,43 +168,43 @@
 
 
 
-.children_cde9af:has([src*="994717784770613430"]) .overflow__993fa,
-.children_cde9af:has([src*="994717784770613430"]) .headerText_bd68ec,
-.children_cde9af:has([src*="994717784770613430"]) .username__267df,
-.children_cde9af:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div,
-.contents_d3ae0d:has([src*="994717784770613430"]) .overflow__993fa,
-.contents_d3ae0d:has([src*="994717784770613430"]) .headerText_bd68ec,
-.contents_d3ae0d:has([src*="994717784770613430"]) .username__267df,
-.contents_d3ae0d:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div,
-.link__3a950:has([src*="994717784770613430"]) .overflow__993fa,
-.link__3a950:has([src*="994717784770613430"]) .headerText_bd68ec,
-.link__3a950:has([src*="994717784770613430"]) .username__267df,
-.link__3a950:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div,
-.userInfo__83819:has([src*="994717784770613430"]) .overflow__993fa,
-.userInfo__83819:has([src*="994717784770613430"]) .headerText_bd68ec,
-.userInfo__83819:has([src*="994717784770613430"]) .username__267df,
-.userInfo__83819:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div {
+.children_fc4f04:has([src*="994717784770613430"]) .overflow_a82120,
+.children_fc4f04:has([src*="994717784770613430"]) .headerText_f9f2ca,
+.children_fc4f04:has([src*="994717784770613430"]) .username_f3939d,
+.children_fc4f04:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div,
+.contents_f9f2ca:has([src*="994717784770613430"]) .overflow_a82120,
+.contents_f9f2ca:has([src*="994717784770613430"]) .headerText_f9f2ca,
+.contents_f9f2ca:has([src*="994717784770613430"]) .username_f3939d,
+.contents_f9f2ca:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div,
+.link_c91bad:has([src*="994717784770613430"]) .overflow_a82120,
+.link_c91bad:has([src*="994717784770613430"]) .headerText_f9f2ca,
+.link_c91bad:has([src*="994717784770613430"]) .username_f3939d,
+.link_c91bad:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div,
+.userInfo_f3939d:has([src*="994717784770613430"]) .overflow_a82120,
+.userInfo_f3939d:has([src*="994717784770613430"]) .headerText_f9f2ca,
+.userInfo_f3939d:has([src*="994717784770613430"]) .username_f3939d,
+.userInfo_f3939d:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div {
   display: inline-flex;
   flex-wrap: wrap;
 }
 
 
-.children_cde9af:has([src*="994717784770613430"]) .overflow__993fa:after,
-.children_cde9af:has([src*="994717784770613430"]) .headerText_bd68ec:after,
-.children_cde9af:has([src*="994717784770613430"]) .username__267df:after,
-.children_cde9af:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div:after,
-.contents_d3ae0d:has([src*="994717784770613430"]) .overflow__993fa:after,
-.contents_d3ae0d:has([src*="994717784770613430"]) .headerText_bd68ec:after,
-.contents_d3ae0d:has([src*="994717784770613430"]) .username__267df:after,
-.contents_d3ae0d:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div:after,
-.link__3a950:has([src*="994717784770613430"]) .overflow__993fa:after,
-.link__3a950:has([src*="994717784770613430"]) .headerText_bd68ec:after,
-.link__3a950:has([src*="994717784770613430"]) .username__267df:after,
-.link__3a950:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div:after,
-.userInfo__83819:has([src*="994717784770613430"]) .overflow__993fa:after,
-.userInfo__83819:has([src*="994717784770613430"]) .headerText_bd68ec:after,
-.userInfo__83819:has([src*="994717784770613430"]) .username__267df:after,
-.userInfo__83819:has([src*="994717784770613430"]) .titleWrapper_d6133e > h1 > div:after {
+.children_fc4f04:has([src*="994717784770613430"]) .overflow_a82120:after,
+.children_fc4f04:has([src*="994717784770613430"]) .headerText_f9f2ca:after,
+.children_fc4f04:has([src*="994717784770613430"]) .username_f3939d:after,
+.children_fc4f04:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div:after,
+.contents_f9f2ca:has([src*="994717784770613430"]) .overflow_a82120:after,
+.contents_f9f2ca:has([src*="994717784770613430"]) .headerText_f9f2ca:after,
+.contents_f9f2ca:has([src*="994717784770613430"]) .username_f3939d:after,
+.contents_f9f2ca:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div:after,
+.link_c91bad:has([src*="994717784770613430"]) .overflow_a82120:after,
+.link_c91bad:has([src*="994717784770613430"]) .headerText_f9f2ca:after,
+.link_c91bad:has([src*="994717784770613430"]) .username_f3939d:after,
+.link_c91bad:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div:after,
+.userInfo_f3939d:has([src*="994717784770613430"]) .overflow_a82120:after,
+.userInfo_f3939d:has([src*="994717784770613430"]) .headerText_f9f2ca:after,
+.userInfo_f3939d:has([src*="994717784770613430"]) .username_f3939d:after,
+.userInfo_f3939d:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
@@ -236,43 +236,43 @@
 
 
 
-.children_cde9af:has([src*="876665886382116864"]) .overflow__993fa,
-.children_cde9af:has([src*="876665886382116864"]) .headerText_bd68ec,
-.children_cde9af:has([src*="876665886382116864"]) .username__267df,
-.children_cde9af:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div,
-.contents_d3ae0d:has([src*="876665886382116864"]) .overflow__993fa,
-.contents_d3ae0d:has([src*="876665886382116864"]) .headerText_bd68ec,
-.contents_d3ae0d:has([src*="876665886382116864"]) .username__267df,
-.contents_d3ae0d:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div,
-.link__3a950:has([src*="876665886382116864"]) .overflow__993fa,
-.link__3a950:has([src*="876665886382116864"]) .headerText_bd68ec,
-.link__3a950:has([src*="876665886382116864"]) .username__267df,
-.link__3a950:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div,
-.userInfo__83819:has([src*="876665886382116864"]) .overflow__993fa,
-.userInfo__83819:has([src*="876665886382116864"]) .headerText_bd68ec,
-.userInfo__83819:has([src*="876665886382116864"]) .username__267df,
-.userInfo__83819:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div {
+.children_fc4f04:has([src*="876665886382116864"]) .overflow_a82120,
+.children_fc4f04:has([src*="876665886382116864"]) .headerText_f9f2ca,
+.children_fc4f04:has([src*="876665886382116864"]) .username_f3939d,
+.children_fc4f04:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div,
+.contents_f9f2ca:has([src*="876665886382116864"]) .overflow_a82120,
+.contents_f9f2ca:has([src*="876665886382116864"]) .headerText_f9f2ca,
+.contents_f9f2ca:has([src*="876665886382116864"]) .username_f3939d,
+.contents_f9f2ca:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div,
+.link_c91bad:has([src*="876665886382116864"]) .overflow_a82120,
+.link_c91bad:has([src*="876665886382116864"]) .headerText_f9f2ca,
+.link_c91bad:has([src*="876665886382116864"]) .username_f3939d,
+.link_c91bad:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div,
+.userInfo_f3939d:has([src*="876665886382116864"]) .overflow_a82120,
+.userInfo_f3939d:has([src*="876665886382116864"]) .headerText_f9f2ca,
+.userInfo_f3939d:has([src*="876665886382116864"]) .username_f3939d,
+.userInfo_f3939d:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div {
   display: inline-flex;
   flex-wrap: wrap;
 }
 
 
-.children_cde9af:has([src*="876665886382116864"]) .overflow__993fa:after,
-.children_cde9af:has([src*="876665886382116864"]) .headerText_bd68ec:after,
-.children_cde9af:has([src*="876665886382116864"]) .username__267df:after,
-.children_cde9af:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div:after,
-.contents_d3ae0d:has([src*="876665886382116864"]) .overflow__993fa:after,
-.contents_d3ae0d:has([src*="876665886382116864"]) .headerText_bd68ec:after,
-.contents_d3ae0d:has([src*="876665886382116864"]) .username__267df:after,
-.contents_d3ae0d:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div:after,
-.link__3a950:has([src*="876665886382116864"]) .overflow__993fa:after,
-.link__3a950:has([src*="876665886382116864"]) .headerText_bd68ec:after,
-.link__3a950:has([src*="876665886382116864"]) .username__267df:after,
-.link__3a950:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div:after,
-.userInfo__83819:has([src*="876665886382116864"]) .overflow__993fa:after,
-.userInfo__83819:has([src*="876665886382116864"]) .headerText_bd68ec:after,
-.userInfo__83819:has([src*="876665886382116864"]) .username__267df:after,
-.userInfo__83819:has([src*="876665886382116864"]) .titleWrapper_d6133e > h1 > div:after {
+.children_fc4f04:has([src*="876665886382116864"]) .overflow_a82120:after,
+.children_fc4f04:has([src*="876665886382116864"]) .headerText_f9f2ca:after,
+.children_fc4f04:has([src*="876665886382116864"]) .username_f3939d:after,
+.children_fc4f04:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div:after,
+.contents_f9f2ca:has([src*="876665886382116864"]) .overflow_a82120:after,
+.contents_f9f2ca:has([src*="876665886382116864"]) .headerText_f9f2ca:after,
+.contents_f9f2ca:has([src*="876665886382116864"]) .username_f3939d:after,
+.contents_f9f2ca:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div:after,
+.link_c91bad:has([src*="876665886382116864"]) .overflow_a82120:after,
+.link_c91bad:has([src*="876665886382116864"]) .headerText_f9f2ca:after,
+.link_c91bad:has([src*="876665886382116864"]) .username_f3939d:after,
+.link_c91bad:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div:after,
+.userInfo_f3939d:has([src*="876665886382116864"]) .overflow_a82120:after,
+.userInfo_f3939d:has([src*="876665886382116864"]) .headerText_f9f2ca:after,
+.userInfo_f3939d:has([src*="876665886382116864"]) .username_f3939d:after,
+.userInfo_f3939d:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
