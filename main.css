@@ -40,7 +40,10 @@
 .userInfo_f3939d:has([src*="301512451453616128"]) .overflow_a82120,
 .userInfo_f3939d:has([src*="301512451453616128"]) .headerText_f9f2ca,
 .userInfo_f3939d:has([src*="301512451453616128"]) .username_f3939d,
-.userInfo_f3939d:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div {
+.userInfo_f3939d:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div,
+.member_a31c43:has([src*="301512451453616128"]) .username_a31c43,
+.member_a31c43:has([src*="301512451453616128"]) .overflow_a82120,
+.member_a31c43:has([src*="301512451453616128"]) .headerText_f9f2ca {
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -61,7 +64,10 @@
 .userInfo_f3939d:has([src*="301512451453616128"]) .overflow_a82120:after,
 .userInfo_f3939d:has([src*="301512451453616128"]) .headerText_f9f2ca:after,
 .userInfo_f3939d:has([src*="301512451453616128"]) .username_f3939d:after,
-.userInfo_f3939d:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div:after {
+.userInfo_f3939d:has([src*="301512451453616128"]) .titleWrapper_fc4f04 > h1 > div:after,
+.member_a31c43:has([src*="301512451453616128"]) .username_a31c43:after,
+.member_a31c43:has([src*="301512451453616128"]) .overflow_a82120:after,
+.member_a31c43:has([src*="301512451453616128"]) .headerText_f9f2ca:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
@@ -112,7 +118,10 @@
 .userInfo_f3939d:has([src*="493105382932086803"]) .overflow_a82120,
 .userInfo_f3939d:has([src*="493105382932086803"]) .headerText_f9f2ca,
 .userInfo_f3939d:has([src*="493105382932086803"]) .username_f3939d,
-.userInfo_f3939d:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div {
+.userInfo_f3939d:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div,
+.member_a31c43:has([src*="493105382932086803"]) .username_a31c43,
+.member_a31c43:has([src*="493105382932086803"]) .overflow_a82120,
+.member_a31c43:has([src*="493105382932086803"]) .headerText_f9f2ca {
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -135,7 +144,10 @@
 .userInfo_f3939d:has([src*="493105382932086803"]) .overflow_a82120:after,
 .userInfo_f3939d:has([src*="493105382932086803"]) .headerText_f9f2ca:after,
 .userInfo_f3939d:has([src*="493105382932086803"]) .username_f3939d:after,
-.userInfo_f3939d:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div:after {
+.userInfo_f3939d:has([src*="493105382932086803"]) .titleWrapper_fc4f04 > h1 > div:after,
+.member_a31c43:has([src*="493105382932086803"]) .username_a31c43:after,
+.member_a31c43:has([src*="493105382932086803"]) .overflow_a82120:after,
+.member_a31c43:has([src*="493105382932086803"]) .headerText_f9f2ca:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
@@ -183,7 +195,10 @@
 .userInfo_f3939d:has([src*="994717784770613430"]) .overflow_a82120,
 .userInfo_f3939d:has([src*="994717784770613430"]) .headerText_f9f2ca,
 .userInfo_f3939d:has([src*="994717784770613430"]) .username_f3939d,
-.userInfo_f3939d:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div {
+.userInfo_f3939d:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div,
+.member_a31c43:has([src*="994717784770613430"]) .username_a31c43,
+.member_a31c43:has([src*="994717784770613430"]) .overflow_a82120,
+.member_a31c43:has([src*="994717784770613430"]) .headerText_f9f2ca {
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -204,12 +219,15 @@
 .userInfo_f3939d:has([src*="994717784770613430"]) .overflow_a82120:after,
 .userInfo_f3939d:has([src*="994717784770613430"]) .headerText_f9f2ca:after,
 .userInfo_f3939d:has([src*="994717784770613430"]) .username_f3939d:after,
-.userInfo_f3939d:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div:after {
+.userInfo_f3939d:has([src*="994717784770613430"]) .titleWrapper_fc4f04 > h1 > div:after,
+.member_a31c43:has([src*="994717784770613430"]) .username_a31c43:after,
+.member_a31c43:has([src*="994717784770613430"]) .overflow_a82120:after,
+.member_a31c43:has([src*="994717784770613430"]) .headerText_f9f2ca:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
   align-items: center;
-  content: "Akin to the stars";
+  content: "Celestial";
   text-transform: uppercase;
   border: 1px solid rgb(94, 91, 91);
   padding: 0 4px;
@@ -251,7 +269,10 @@
 .userInfo_f3939d:has([src*="876665886382116864"]) .overflow_a82120,
 .userInfo_f3939d:has([src*="876665886382116864"]) .headerText_f9f2ca,
 .userInfo_f3939d:has([src*="876665886382116864"]) .username_f3939d,
-.userInfo_f3939d:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div {
+.userInfo_f3939d:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div,
+.member_a31c43:has([src*="876665886382116864"]) .username_a31c43,
+.member_a31c43:has([src*="876665886382116864"]) .overflow_a82120,
+.member_a31c43:has([src*="876665886382116864"]) .headerText_f9f2ca {
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -272,7 +293,10 @@
 .userInfo_f3939d:has([src*="876665886382116864"]) .overflow_a82120:after,
 .userInfo_f3939d:has([src*="876665886382116864"]) .headerText_f9f2ca:after,
 .userInfo_f3939d:has([src*="876665886382116864"]) .username_f3939d:after,
-.userInfo_f3939d:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div:after {
+.userInfo_f3939d:has([src*="876665886382116864"]) .titleWrapper_fc4f04 > h1 > div:after,
+.member_a31c43:has([src*="876665886382116864"]) .username_a31c43:after,
+.member_a31c43:has([src*="876665886382116864"]) .overflow_a82120:after,
+.member_a31c43:has([src*="876665886382116864"]) .headerText_f9f2ca:after {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: row;
@@ -292,5 +316,3 @@
   text-decoration: none !important;
   color: black;
 }
-
-
