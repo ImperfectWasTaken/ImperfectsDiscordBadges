@@ -21,6 +21,11 @@
 .nameAndDecorators_ec8679 > div:nth-child(2){
   display: none;
 }
+
+.vc-platform-indicator {
+  order: 2;
+}
+
 /*-----------------------------Me----------------------------------*/
 
 
@@ -91,7 +96,9 @@
   -1px -1px 5px #ffffff;
 }
 
-
+.contents_f9f2ca:has([src*="301512451453616128"]) .headerText_f9f2ca:after {
+  order: 1
+}
 
 
 
@@ -172,7 +179,9 @@
 }
 
 
-
+.contents_f9f2ca:has([src*="493105382932086803"]) .headerText_f9f2ca:after {
+  order: 1
+}
 
 /*----------------------------LUNA------------------------------*/
 
@@ -247,7 +256,9 @@
 }
 
 
-
+.contents_f9f2ca:has([src*="994717784770613430"]) .headerText_f9f2ca:after {
+  order: 1
+}
 
 /*----------------------------Quinn-----------------------------------*/
 
@@ -315,4 +326,8 @@
   margin: auto 0 auto 4px;
   text-decoration: none !important;
   color: black;
+}
+
+.contents_f9f2ca:has([src*="876665886382116864"]) .headerText_f9f2ca:after {
+  order: 1
 }
