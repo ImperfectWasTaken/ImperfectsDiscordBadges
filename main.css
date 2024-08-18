@@ -110,13 +110,22 @@
                -1px 1px 3px rgb(0, 0, 0);
 }
 
-.channel_c91bad:has([src*="301512451453616128"]) {
-  background-image: url("https://i.pinimg.com/originals/82/b7/4e/82b74e006f83aa8caa6c353aa6228cdd.gif");
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 10px 10px var(--bg-overlay-chat, var(--background-secondary)) inset;
+.channel_c91bad:has([src*="301512451453616128"]) .subText_ec8679{
+  color: rgb(250, 250, 250);
+  text-shadow: -1px 1px 3px rgb(0, 0, 0),
+               1px -1px 3px rgb(0, 0, 0),
+               1px -1px 3px rgb(0, 0, 0),
+               -1px 1px 3px rgb(0, 0, 0);
 }
 
+
+.interactive_f5eb4b:has([src*="301512451453616128"]) {
+  background-image: url("https://i.pinimg.com/originals/82/b7/4e/82b74e006f83aa8caa6c353aa6228cdd.gif");
+  background-size: cover;
+  border: 1px solid var(--background-secondary);
+  border-radius: 0px !important;
+  box-shadow: 0px 0px 10px 10px var(--bg-overlay-chat, var(--background-secondary)) inset;
+}
 
 .member_a31c43:has([src*="301512451453616128"]) {
   background-image: url("https://i.pinimg.com/originals/82/b7/4e/82b74e006f83aa8caa6c353aa6228cdd.gif");
@@ -159,6 +168,10 @@
   box-shadow: 0px 0px 40px 40px var(--bg-surface-overlay, var(--bg-surface-overlay)) inset;
 
 }
+
+
+
+
 /*---------------------------Love----------------------------------*/
 
 
@@ -254,10 +267,21 @@
                -1px 1px 3px rgb(0, 0, 0);
 }
 
-.channel_c91bad:has([src*="493105382932086803"]) {
+
+.channel_c91bad:has([src*="493105382932086803"]) .subText_ec8679{
+  color: rgb(250, 250, 250);
+  text-shadow: -1px 1px 3px rgb(0, 0, 0),
+               1px -1px 3px rgb(0, 0, 0),
+               1px -1px 3px rgb(0, 0, 0),
+               -1px 1px 3px rgb(0, 0, 0);
+}
+
+
+.interactive_f5eb4b:has([src*="493105382932086803"]) {
   background-image: url("https://i.pinimg.com/originals/6a/ee/ea/6aeeea24e8fd4023a349e354eefa33ed.gif");
   background-size: cover;
-  background-position: center;
+  border: 1px solid var(--background-secondary);
+  border-radius: 0px !important;
   box-shadow: 0px 0px 10px 10px var(--bg-overlay-chat, var(--background-secondary)) inset;
 }
 
